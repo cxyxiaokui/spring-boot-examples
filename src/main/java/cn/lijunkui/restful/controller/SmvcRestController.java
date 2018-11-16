@@ -31,8 +31,9 @@ public class SmvcRestController {
      * 添加用户
      */
     @RequestMapping(value = "",method = RequestMethod.POST)
-    public void add(User user){
+    public User add(User user){
         log.info("添加用户成功："+"name:{},age:{}",user.getName(),user.getAge());
+        return user;
     }
  
     /**
