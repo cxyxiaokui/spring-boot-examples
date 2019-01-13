@@ -13,7 +13,7 @@ springbootexamples 是springboot2.0 个人学习的一些示例程序 springboot
 ## lesson4 快速集成JSP
 [集成JSP示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83149069)
 ## lesson5 快速使用Thymeleaf
-[使用Thymeleaf示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83856758)
+[springboot搭建 Thymeleaf官方示例程序](https://blog.csdn.net/ljk126wy/article/details/83856758)
 ## lesson6 快速进行统一异常处理
 [进行统一异常处理示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83243900)
 ## lesson7 快速集成JWT
