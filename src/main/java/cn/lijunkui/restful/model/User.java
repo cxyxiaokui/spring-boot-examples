@@ -5,6 +5,9 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 
 import cn.lijunkui.restful.custominterface.Addr;
+import cn.lijunkui.restful.custominterface.AddrWithEnum;
+import cn.lijunkui.restful.custominterface.AddrWithEnum.AddrEnum;
+import cn.lijunkui.restful.custominterface.AddrWithParam;
 
 
 public class User {
@@ -13,7 +16,9 @@ public class User {
 	@Max(value = 100, message = "年龄必须在20-100之间！")
 	@Min(value= 20 ,message= "年龄必须在20-100之间！" )
     private Integer age;
-	@Addr(message="我们仅支持北京河北天津的用户！")
+	//@Addr(message="我们仅支持北京河北天津的用户！")
+	//@AddrWithParam(value = { "北京","河北","天津" })
+	@AddrWithEnum(addr = AddrEnum.BEIJING)
 	private String addr;
  
     public String getAddr() {
