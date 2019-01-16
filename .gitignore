@@ -23,3 +23,7 @@
 hs_err_pid*
 /.classpath
 /.project
+<<<<<<< HEAD
+=======
+/.springBeans
+>>>>>>> refs/heads/lesson13_springdatajpa
