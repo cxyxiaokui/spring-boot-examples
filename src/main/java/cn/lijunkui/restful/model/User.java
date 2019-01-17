@@ -1,11 +1,35 @@
 package cn.lijunkui.restful.model;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+
+import cn.lijunkui.restful.custominterface.Addr;
+import cn.lijunkui.restful.custominterface.AddrWithEnum;
+import cn.lijunkui.restful.custominterface.AddrWithEnum.AddrEnum;
+import cn.lijunkui.restful.custominterface.AddrWithParam;
+
+
 public class User {
-	
+	@NotEmpty(message="请输入您的名称！")
 	private String name;
+	@Max(value = 100, message = "年龄必须在20-100之间！")
+	@Min(value= 20 ,message= "年龄必须在20-100之间！" )
     private Integer age;
+	//@Addr(message="我们仅支持北京河北天津的用户！")
+	//@AddrWithParam(value = { "北京","河北","天津" })
+	@AddrWithEnum(addr = AddrEnum.BEIJING)
+	private String addr;
  
-    public String getName() {
+    public String getAddr() {
+		return addr;
+	}
+
+	public void setAddr(String addr) {
+		this.addr = addr;
+	}
+
+	public String getName() {
         return name;
     }
  

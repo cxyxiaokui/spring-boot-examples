@@ -1,7 +1,13 @@
 package cn.lijunkui.restful.controller;
 
+import java.util.List;
+
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -36,8 +42,14 @@ public class SBootRestController {
      * 添加用户
      */
     @PostMapping()
-    public void add(User user){
+    public User add(@Valid User user,BindingResult bindingResult){
+    	if(bindingResult.hasErrors()) {
+    		String defaultMessage = bindingResult.getFieldError().getDefaultMessage();
+    		System.out.println(defaultMessage);
+    		return null;
+        }
         log.info("springboot添加用户成功："+"name:{},age:{}",user.getName(),user.getAge());
+		return user;
     }
     @PutMapping()
     public void updatePut(User user){
