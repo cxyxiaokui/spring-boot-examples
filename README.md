@@ -25,6 +25,8 @@ springbootexamples 是springboot2.0 个人学习的一些示例程序 springboot
 [集成webSocket示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82814086)
 ## lesson10 springboot2.0快速使用Filter
 [使用filter示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83069903)
+## lesson11 springboot2.0快速开发邮件发送
+[开发邮件发送示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83239398)
 ## lesson12 springboot2.0使用定时任务开发
 [使用定时任务开发示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83079070)
 
