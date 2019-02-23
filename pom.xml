@@ -38,17 +38,17 @@
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		<!-- <dependency>
+		 <dependency>
 		   <groupId>com.alibaba</groupId>
 		   <artifactId>druid-spring-boot-starter</artifactId>
 		   <version>1.1.10</version>
-		</dependency> -->
+		</dependency> 
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 			<version>1.1.0</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
