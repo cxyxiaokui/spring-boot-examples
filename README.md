@@ -5,12 +5,13 @@ SpringBoot2.x 个人学习示例程序
 ![JDK 1.8](https://img.shields.io/badge/JDK-1.8-brightgreen.svg)
 ![Maven](https://img.shields.io/badge/Maven-3.5.0-yellowgreen.svg)
 
-个人学习 **SpringBoot2.x** 的写的一些示例程序，项目中每个示例对应一个分支。
+个人学习 **SpringBoot2.x** 写的一些示例程序，项目中每个示例对应一个分支。
 
 **springboot版本：** 2.1.0.RELEASE
+
 ---
 
-# springboot2.x 学习示例程序
+# SpringBoot2.x 每个示例程序博客教程
 ## lesson1 springboot2.x 快速搭建介绍
 可以通过下面三种方式进行springboot 快速搭建
  - [IntellJ IDEA 快速搭建](https://blog.csdn.net/ljk126wy/article/details/82722388)
