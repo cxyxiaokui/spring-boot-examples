@@ -5,6 +5,7 @@ SpringBoot2.x 个人学习示例程序
 ![JDK 1.8](https://img.shields.io/badge/JDK-1.8-brightgreen.svg)
 ![Maven](https://img.shields.io/badge/Maven-3.5.0-yellowgreen.svg)
 ![license](https://img.shields.io/badge/license-apache%202.0-blue.svg)
+
 个人学习 **SpringBoot2.x** 写的一些示例程序，项目中每个示例对应一个分支。
 
 **springboot版本：** 2.1.0.RELEASE
