@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+ 
+<html xmlns:th="http://www.thymeleaf.org">
+ 
+  <head>
+    <title>在线杂货店</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" media="all" href="../css/gtvg.css" th:href="@{/css/gtvg.css}" />
+  </head>
+ 
+  <body>
+      <div>
+      <img src="../../images/gtvglogo.png" alt="GTVG logo" title="GTVG logo" 
+           th:src="@{/images/gtvglogo.png}" th:alt-title="#{logo}" />
+    </div>
+    <!--  -->
+    <p th:utext="#{home.welcome(${session.user.name})}">Welcome to our grocery store, Sebastian!</p>
+  
+    <p>
+      Today is: <span th:with="df=#{date.format}" th:text="${#calendars.format(today,df)}">13 February 2011</span>
+    </p>
+  
+  
+ 
+    <h1>商品列表</h1>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>商品名称</th>
+          <th>价格</th>
+          <th>是否有货</th>
+          <th>评价</th>
+        </tr>
+      </thead>
+      <tbody th:remove="all-but-first">
+        <tr th:each="prod : ${prods}" th:class="${prodStat.odd}? 'odd'">
+          <td th:text="${prod.name}">Onions</td>
+          <td th:text="${prod.price}">2.41</td>
+          <td th:text="${prod.inStock}? #{true} : #{false}">yes</td>
+          <td>
+            <span th:text="${#lists.size(prod.comments)}">2</span> comment/s
+            <a href="../comments.html" 
+               th:href="@{/product/comments(prodId=${prod.id})}" 
+               th:unless="${#lists.isEmpty(prod.comments)}">查看</a>
+          </td>
+        </tr>
+        <tr class="odd">
+          <td>Blue Lettuce</td>
+          <td>9.55</td>
+          <td>no</td>
+          <td>
+            <span>0</span> comment/s
+          </td>
+        </tr>
+        <tr>
+          <td>Mild Cinnamon</td>
+          <td>1.99</td>
+          <td>yes</td>
+          <td>
+            <span>3</span> comment/s
+            <a href="../comments.html">查看</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <p>
+      <a href="../home.html" th:href="@{/}">返回首页</a>
+    </p>
+    <div th:insert="~{footer::copy}">&copy; 2011 The Static Templates</div>
+  </body>
+  
+</html>
