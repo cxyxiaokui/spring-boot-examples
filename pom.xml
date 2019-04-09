@@ -10,7 +10,9 @@
 	<name>springbootexamples</name>
 	<description>Demo project for Spring Boot</description>
 	
-	
+	<modules>
+		<module>lesson1_quickstart</module>
+	</modules>
 
 	<build>
         <plugins>
