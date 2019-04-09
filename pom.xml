@@ -12,6 +12,20 @@
 	
 	<modules>
 		<module>lesson1_quickstart</module>
+		<module>lesson2_restful_api</module>
+		<module>lesson3_freemarker</module>
+		<module>lesson4_jsp</module>
+		<module>lesson5_thymeleaf</module>
+		<module>lesson6_unified_anomaly</module>
+		<module>lesson7_jwt</module>
+		<module>lesson8_swagger</module>
+		<module>lesson9_websocket</module>
+		<module>lesson10_filter</module>
+		<module>lesson11_mail</module>
+		<module>lesson12_timed_task</module>
+		<module>lesson13_springdatajpa</module>
+		<module>lesson14_mybaties</module>
+		<module>lesson15_custom_start_dependency</module>
 	</modules>
 
 	<build>
