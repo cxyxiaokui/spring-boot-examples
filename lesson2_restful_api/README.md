@@ -146,7 +146,7 @@ public void delete(@PathVariable("id") Long id){
 
 ### 删除测试
 
-![img](https://img-blog.csdn.net/20180916152403830?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xqazEyNnd5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)![点击并拖拽以移动](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+![img](https://img-blog.csdn.net/20180916152403830?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xqazEyNnd5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 ![img](https://img-blog.csdn.net/20180916152414144?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xqazEyNnd5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
