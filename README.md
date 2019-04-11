@@ -14,8 +14,9 @@ SpringBoot2.x 个人学习示例程序
 
 # SpringBoot2.x 每个示例程序学习教程
 您可以参考我的Wiki（目前正在维护中....）也可以通过下面的博客连接进行查看。
-## lesson1 springboot2.x 快速搭建介绍
-请参考wiki [快速搭建我们的SpringBoot 2.0 ](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)
+## lesson1 springboot2.x 快速搭建和启动
+请参考wiki [快速搭建我们的SpringBoot 2.0](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)和
+[SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)
 ## lesson2 springboot2.x快速学习restful api开发
 [restful api开发示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82724126)
 [web开发之数据校验](https://blog.csdn.net/ljk126wy/article/details/86495112)
