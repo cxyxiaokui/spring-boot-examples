@@ -14,14 +14,15 @@ SpringBoot2.x 个人学习示例程序
 
 # SpringBoot2.x 每个示例程序学习教程
 您可以参考我的Wiki（目前正在维护中....）也可以通过下面的博客连接进行查看。
-## lesson1 springboot2.x 快速搭建和启动
-请参考wiki [快速搭建我们的SpringBoot 2.0](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)和
-[SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)
-## lesson2 springboot2.x快速学习restful api开发
-[restful api开发示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82724126)
-[web开发之数据校验](https://blog.csdn.net/ljk126wy/article/details/86495112)
-## lesson3 springboot2.x快速集成freemarker
-[集成freemarker示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82729626)
+目前已经维护好的wiki如下
+- [快速搭建我们的SpringBoot 2.0](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)
+- [SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)
+- [SpringBoot2.0 开发restful 风格Api](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E5%BC%80%E5%8F%91restful-%E9%A3%8E%E6%A0%BCApi)
+- [SpringBoot 使用Hibernate Validator 进行数据校验](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E4%BD%BF%E7%94%A8Hibernate-Validator-%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C)
+- [自定义Hibernate Validator 校验注解](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89Hibernate-Validator-%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3)
+- [SpringBoot2.0之快速整合freemarker](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88freemarker)
+
+其他代码内容教程如下（以后会都会博客内容精简变成wiki的内容，目前正在维护中...）：
 ## lesson4 springboot2.x快速集成JSP
 [集成JSP示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83149069)
 ## lesson5 springboot2.x快速使用Thymeleaf
