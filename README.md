@@ -21,10 +21,8 @@ SpringBoot2.x 个人学习示例程序
 - [SpringBoot 使用Hibernate Validator 进行数据校验](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E4%BD%BF%E7%94%A8Hibernate-Validator-%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C)
 - [自定义Hibernate Validator 校验注解](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89Hibernate-Validator-%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3)
 - [SpringBoot2.0之快速整合freemarker](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88freemarker)
-
+- [SpringBoot2.0之快速整合JSP](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88JSP)
 其他代码内容教程如下（以后会都会博客内容精简变成wiki的内容，目前正在维护中...）：
-## lesson4 springboot2.x快速集成JSP
-[集成JSP示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83149069)
 ## lesson5 springboot2.x快速使用Thymeleaf
 [springboot搭建 Thymeleaf官方示例程序](https://blog.csdn.net/ljk126wy/article/details/83856758)
 ## lesson6 springboot2.x快速进行统一异常处理
