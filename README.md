@@ -25,14 +25,14 @@ SpringBoot2.x 个人学习示例程序
 - [SpringBoot2.0统一异常处理](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E7%BB%9F%E4%B8%80%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)
 - [Springboot2.0整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)
 - [SpringBoot2.0整合丝袜哥(swagger)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E6%95%B4%E5%90%88%E4%B8%9D%E8%A2%9C%E5%93%A5(swagger))
+- [SpringBoot2.0配置定义Filter](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E9%85%8D%E7%BD%AE%E5%AE%9A%E4%B9%89Filter)
+
 
 其他代码内容教程如下（以后会都会博客内容精简变成wiki的内容，目前正在维护中...）：
 ## lesson5 springboot2.x快速使用Thymeleaf
 [springboot搭建 Thymeleaf官方示例程序](https://blog.csdn.net/ljk126wy/article/details/83856758)
 ## lesson9 springboot2.x快速学习集成webSocket
 [集成webSocket示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82814086)
-## lesson10 springboot2.x快速使用Filter
-[使用filter示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83069903)
 ## lesson11 springboot2.x快速开发邮件发送
 [开发邮件发送示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83239398)
 ## lesson12 springboot2.x使用定时任务开发
