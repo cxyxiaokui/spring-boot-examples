@@ -26,7 +26,7 @@ SpringBoot2.x 个人学习示例程序
 - [Springboot2.0整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)
 - [SpringBoot2.0整合丝袜哥(swagger)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E6%95%B4%E5%90%88%E4%B8%9D%E8%A2%9C%E5%93%A5(swagger))
 - [SpringBoot2.0配置定义Filter](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E9%85%8D%E7%BD%AE%E5%AE%9A%E4%B9%89Filter)
-
+- [SpringBoot2.0之快速整合 thymeleaf](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88-thymeleaf)
 
 其他代码内容教程如下（以后会都会博客内容精简变成wiki的内容，目前正在维护中...）：
 ## lesson5 springboot2.x快速使用Thymeleaf
