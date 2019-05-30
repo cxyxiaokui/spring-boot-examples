@@ -80,6 +80,7 @@ public class MailService {
 		try {
 			MimeMessageHelper helper = new MimeMessageHelper(message, true);
 			helper.setFrom(formMail);
+			helper.setCc(formMail);// 邮件抄送给自己防止发送不成功！com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 126 smtp9
 			helper.setTo(toMail);
 			helper.setSubject(subject);
 			helper.setText(content, true);
@@ -97,4 +98,24 @@ public class MailService {
 			e.printStackTrace();
 		}
 	}
+	
+	public void sendAttachmentsMail(String toMail,String subject,String content,String filePath) {
+   	 	MimeMessage message = sender.createMimeMessage();
+        try {
+            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            helper.setFrom(formMail);
+            helper.setTo(toMail);
+            helper.setSubject(subject);
+            helper.setText(content, true);
+            FileSystemResource file = new FileSystemResource(new File(filePath));
+            String fileName = filePath.substring(filePath.lastIndexOf("/"));
+            helper.addAttachment(fileName, file);
+            sender.send(message);
+            logger.info("发送给"+toMail+"带附件的邮件已经发送。");
+        } catch (MessagingException e) {
+            e.printStackTrace();
+            logger.error("发送给"+toMail+"带附件的邮件时发生异常！", e);
+        }
+    }
+
 }

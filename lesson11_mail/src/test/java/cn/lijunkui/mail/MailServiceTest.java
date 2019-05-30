@@ -57,8 +57,23 @@ public class MailServiceTest {
 		
 		list.add(resource2);
 		list.add(resource);
-		mailService.sendInlineResourceMail("******@qq.com", "头像图片", html,list);
+		mailService.sendInlineResourceMail("ljk163wy@163.com", "头像图片", html,list);
 		//mailService.sendInlineResourceMail("******@163.com", "这是一个测试邮件", html,list);
 	}
 	
+	@Test
+	public void sendAttachmentsMail() {
+		String html= "<!DOCTYPE html>\r\n" + 
+				"<html>\r\n" + 
+				"<head>\r\n" + 
+				"<meta charset=\"UTF-8\">\r\n" + 
+				"<title>Insert title here</title>\r\n" + 
+				"</head>\r\n" + 
+				"<body>\r\n" + 
+				"	<font color=\"red\">发送html</font>\r\n" + 
+				"</body>\r\n" + 
+				"</html>";
+		String path = MailServiceTest.class.getClassLoader().getResource("image.jpg").getPath();
+		mailService.sendAttachmentsMail("1165904938@qq.com", "这是一个测试邮件", html, path);
+	}
 }
