@@ -99,6 +99,31 @@ public class MailService {
 		}
 	}
 	
+	public void sendInlineResourceMailForGroupSending(String[] toMail,String subject,String content,List<InlineResource> resourceist) {
+		MimeMessage message = sender.createMimeMessage();
+		try {
+			MimeMessageHelper helper = new MimeMessageHelper(message, true);
+			helper.setFrom(formMail);
+			helper.setCc(formMail);// 邮件抄送给自己防止发送不成功！com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 126 smtp9
+			helper.setTo(toMail);
+			helper.setSubject(subject);
+			helper.setText(content, true);
+			for (InlineResource inlineResource : resourceist) {
+				FileSystemResource res = new FileSystemResource(new File(inlineResource.getPath()));
+				helper.addInline(inlineResource.getCid(),res);
+			}
+			sender.send(message);
+			logger.info("嵌入静态资源的邮件已经发送。");
+		} catch (MessagingException e) {
+			logger.error("发送嵌入静态资源的邮件时发生异常！", e);
+			e.printStackTrace();
+		}catch (Exception e) {
+			logger.error("发送嵌入静态资源的邮件时发生异常！", e);
+			e.printStackTrace();
+		}
+	}
+	
+	
 	public void sendAttachmentsMail(String toMail,String subject,String content,String filePath) {
    	 	MimeMessage message = sender.createMimeMessage();
         try {
