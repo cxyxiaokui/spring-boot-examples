@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+See javadoc API for class org.thymeleaf.expression.Objects
+
+如果obj不为空，则返回obj，否则返回默认值。也适用于数组、列表或集合
+${#objects.nullSafe(obj,default)}
+${#objects.arrayNullSafe(objArray,default)}
+${#objects.listNullSafe(objList,default)}
+${#objects.setNullSafe(objSet,default)}
+ -->
+<p th:text="${#objects.nullSafe(obj,'该对象为null')}"></p>
+<p th:text="${#objects.arrayNullSafe(objArray,'该数组为null')}"></p>
+<p th:text="${#objects.listNullSafe(objList,'该数据为null')}"></p>
+<p th:text="${#objects.setNullSafe(objSet,'该数据为null')}"></p>
+
+</body>
+</html>

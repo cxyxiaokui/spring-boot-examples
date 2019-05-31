@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+See javadoc API for class org.thymeleaf.expression.Dates
+使用标准区域设置格式设置日期的格式也适用于数组、列表或集合。
+${#dates.format(date)}
+${#dates.arrayFormat(datesArray)}
+${#dates.listFormat(datesList)}
+${#dates.setFormat(datesSet)}
+使用ISO8601格式设置日期的格式也适用于数组、列表或集合。
+${#dates.formatISO(date)}
+${#dates.arrayFormatISO(datesArray)}
+${#dates.listFormatISO(datesList)}
+${#dates.setFormatISO(datesSet)}
+使用指定模式设置日期格式也适用于数组、列表或集合
+${#dates.format(date, 'dd/MMM/yyyy HH:mm')}
+${#dates.arrayFormat(datesArray, 'dd/MMM/yyyy HH:mm')}
+${#dates.listFormat(datesList, 'dd/MMM/yyyy HH:mm')}
+${#dates.setFormat(datesSet, 'dd/MMM/yyyy HH:mm')}
+
+获取日期属性也适用于数组、列表或集合。
+${#dates.day(date)}                    // also arrayDay(...), listDay(...), etc.
+${#dates.month(date)}                  // also arrayMonth(...), listMonth(...), etc.
+${#dates.monthName(date)}              // also arrayMonthName(...), listMonthName(...), etc.
+${#dates.monthNameShort(date)}         // also arrayMonthNameShort(...), listMonthNameShort(...), etc.
+${#dates.year(date)}                   // also arrayYear(...), listYear(...), etc.
+${#dates.dayOfWeek(date)}              // also arrayDayOfWeek(...), listDayOfWeek(...), etc.
+${#dates.dayOfWeekName(date)}          // also arrayDayOfWeekName(...), listDayOfWeekName(...), etc.
+${#dates.dayOfWeekNameShort(date)}     // also arrayDayOfWeekNameShort(...), listDayOfWeekNameShort(...), etc.
+${#dates.hour(date)}                   // also arrayHour(...), listHour(...), etc.
+${#dates.minute(date)}                 // also arrayMinute(...), listMinute(...), etc.
+${#dates.second(date)}                 // also arraySecond(...), listSecond(...), etc.
+${#dates.millisecond(date)}            // also arrayMillisecond(...), listMillisecond(...), etc.
+从组件中创建日期（java.util.Date）对象
+${#dates.create(year,month,day)}
+${#dates.create(year,month,day,hour,minute)}
+${#dates.create(year,month,day,hour,minute,second)}
+${#dates.create(year,month,day,hour,minute,second,millisecond)}
+创建一个日期（Java.util.date）对象根据当前时间
+${#dates.createNow()}
+${#dates.createNowForTimeZone()}
+创建一个日期（Java.util.date）Object for the current date（time set to 00:00）
+${#dates.createToday()}
+${#dates.createTodayForTimeZone()}
+ -->
+<span th:text="${#dates.format(date)}">4564546</span>
+<br>----------------------------<br>
+<span th:text="${#dates.format(date, 'dd/MMM/yyyy HH:mm')}">4564546</span>
+<br>----------------------------<br>	
+<p th:text="${#dates.format(datesArray, 'yyyy-MM-dd HH:mm')}"></p>
+<br>----------------------------<br>
+<p th:text="${#dates.listFormat(datesList, 'dd/MMM/yyyy HH:mm')}"></p>
+<br>----------------------------<br>
+<p th:text="${#dates.day(date)} "></p>
+<p th:text="${#dates.month(date)}"></p>
+<p th:text="${#dates.monthName(date)}"></p>
+<p th:text="${#dates.monthNameShort(date)} "></p>        
+<p th:text="${#dates.year(date)}"></p>
+<p th:text="${#dates.dayOfWeek(date)}"></p>      
+<p th:text="${#dates.dayOfWeekName(date)}"></p> 
+<p th:text="${#dates.dayOfWeekNameShort(date)}"></p>
+<p th:text="${#dates.hour(date)}"></p>
+<p th:text="${#dates.minute(date)}"></p>
+<p th:text="${#dates.second(date)}"></p>
+<p th:text="${#dates.millisecond(date)} "></p>
+<br>----------------------------<br>
+<p th:text="${#dates.createNow()}"></p>
+<p th:text="${#dates.format(#dates.createNow())}"></p>
+
+<br>----------------------------<br>
+<p th:text="${#dates.create('2019','05','30')}"></p>
+<p th:text="${#dates.create('2019','05','31','10','18')}"></p>
+<p th:text="${#dates.create('2019','05','30','10','18','34')}"></p>
+<br>----------------------------<br>
+<p th:text="${#dates.createToday()}"></p>
+</body>
+</html>

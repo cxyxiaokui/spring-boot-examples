@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p th:text="text标签：  + ${msg}"></p>
+	<p th:utext="utext标签： + ${msg}"></p>
+	<p th:utext="|utext标签： ${msg}|"></p>
+-----------------------------------------------	
+	<p th:text="${a}+${b}"></p>
+	<p th:text="|${a} ${b}|"></p>
+	<p th:text="${a} > ${b}"></p>
+	<p th:text="!${flag}"></p>
+-----------------------------------------------	
+	<p th:text="${user.name}"></p>
+	<p th:text="${user.age}"></p>
+-----------------------------------------------
+	<div th:object="${user}" >
+		<p th:text="*{name}"></p>
+		<p th:text="*{age}"></p>
+	</div>
+-----------------------------------------------
+	<p th:text="*{user.name}"></p>
+	<p th:text="*{user.age}"></p>
+	
+</body>
+</html>

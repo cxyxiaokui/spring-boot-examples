@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	 <table>
+      <thead>
+        <tr>
+          <th>用户名称</th>
+          <th>用户年龄</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="user : ${userList}" th:class="${userStat.odd}? 'odd'">
+          <td th:text="${user.name}">Onions</td>
+          <td th:text="${user.age}">2.41</td>
+        </tr>
+      </tbody>
+    </table>
+------------------------------------------------------------------------------
+    <table>
+      <thead>
+        <tr>
+          <th>用户名称</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="str : ${strList}" th:class="${strStat.odd}? 'odd'">
+          <td th:text="${str}">Onions</td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+</html>

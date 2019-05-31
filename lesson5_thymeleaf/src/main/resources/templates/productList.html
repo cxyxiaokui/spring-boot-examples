@@ -10,7 +10,7 @@
  
   <body>
       <div>
-      <img src="../../images/gtvglogo.png" alt="GTVG logo" title="GTVG logo" 
+      <img  alt="GTVG logo" title="GTVG logo" 
            th:src="@{/images/gtvglogo.png}" th:alt-title="#{logo}" />
     </div>
     <!--  -->
@@ -40,8 +40,8 @@
           <td th:text="${prod.inStock}? #{true} : #{false}">yes</td>
           <td>
             <span th:text="${#lists.size(prod.comments)}">2</span> comment/s
-            <a href="../comments.html" 
-               th:href="@{/product/comments(prodId=${prod.id})}" 
+            <a  
+               th:href="@{/product/comments(prodId=${prod.id},prodId2=${prod.id})}" 
                th:unless="${#lists.isEmpty(prod.comments)}">查看</a>
           </td>
         </tr>
