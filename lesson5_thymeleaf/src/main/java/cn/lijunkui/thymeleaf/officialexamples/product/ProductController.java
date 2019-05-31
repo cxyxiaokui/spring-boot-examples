@@ -2,8 +2,10 @@ package cn.lijunkui.thymeleaf.officialexamples.product;
 
 import java.util.Calendar;
 import java.util.List;
+import java.util.Locale;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -23,7 +25,7 @@ public class ProductController {
 	private  ProductService productService = new ProductService();
 	  
 	@RequestMapping("/")
-	public String useT(Model model,HttpServletRequest request) {
+	public String useT(Model model,HttpServletRequest request,HttpServletResponse response) {
 		//获取所有的商品
 		List<Product> allProducts = productService.findAll(); 
 		model.addAttribute("prods", allProducts);
@@ -31,7 +33,7 @@ public class ProductController {
 		model.addAttribute("today", Calendar.getInstance());
 		//设置访问用户信息到session
 		request.getSession(true).setAttribute("user", new User("桌前", "明月", "CHINA", null));
-		
+		localeResolver.setLocale(request,response,Locale.CHINA);
 		return "productList";
 	}
 }
