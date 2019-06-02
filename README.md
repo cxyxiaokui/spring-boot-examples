@@ -27,10 +27,9 @@ SpringBoot2.x 个人学习示例程序
 - [SpringBoot2.0整合丝袜哥(swagger)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E6%95%B4%E5%90%88%E4%B8%9D%E8%A2%9C%E5%93%A5(swagger))
 - [SpringBoot2.0配置定义Filter](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E9%85%8D%E7%BD%AE%E5%AE%9A%E4%B9%89Filter)
 - [SpringBoot2.0之快速整合 thymeleaf](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88-thymeleaf)
+- [SpringBoot2.0 Thymeleaf使用教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-Thymeleaf%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
 
 其他代码内容教程如下（以后会都会博客内容精简变成wiki的内容，目前正在维护中...）：
-## lesson5 springboot2.x快速使用Thymeleaf
-[springboot搭建 Thymeleaf官方示例程序](https://blog.csdn.net/ljk126wy/article/details/83856758)
 ## lesson9 springboot2.x快速学习集成webSocket
 [集成webSocket示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82814086)
 ## lesson11 springboot2.x快速开发邮件发送
@@ -40,5 +39,5 @@ SpringBoot2.x 个人学习示例程序
 ## lesson13 springboot2.x集成spirng data jpa以及使用教程
 [使用spirng data jpa开发示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82819948)
 ## lesson14 springboot2.x集成mybatis以及使用教程
-[使用mybatis开发示例博客教程](https://blog.csdn.net/ljk126wy/article/details/82819948)
+[使用mybatis开发示例博客教程](https://blog.csdn.net/ljk126wy/article/details/83141118)
 
