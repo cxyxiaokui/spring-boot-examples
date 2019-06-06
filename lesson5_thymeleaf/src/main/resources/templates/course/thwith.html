@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p th:with="df='dd/MMM/yyyy HH:mm'">
+  		Today is: <span th:text="${#dates.format(today,df)}">13 February 2011</span>
+	</p>
+	
+	<div th:with="firstEle=${users[0]}">
+		  <p>
+		    第一个用户的名称是： <span th:text="${firstEle.name}"></span>.
+		  </p>
+	</div>
+</body>
+</html>

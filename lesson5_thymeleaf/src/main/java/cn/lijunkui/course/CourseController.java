@@ -263,8 +263,89 @@ public class CourseController {
 		return "/course/ids";
 	}
 	
+	@RequestMapping("/threeElementOperation")
+	public String threeElementOperation(Model model){
+		model.addAttribute("name", "ljk");
+		return "/course/threeElementOperation";
+	}
 	
+	@RequestMapping("/elvis")
+	public String elvis(Model model){
+		model.addAttribute("age", null);
+		model.addAttribute("age2", 18);
+		return "/course/elvis";
+	}
 	
+	@RequestMapping("/noOperation")
+	public String noOperation(Model model){
+		model.addAttribute("name", null);
+		return "/course/noOperation";
+	}
+	
+	@RequestMapping("/thhref")
+	public String thhref(Model model){
+		return "/course/thhref";
+	}
+	
+	@RequestMapping("/thclass")
+	public String thclass(Model model){
+		return "/course/thclass";
+	}
+	
+	@RequestMapping("/thattr")
+	public String thattr(Model model){
+		return "/course/thattr";
+	}
+	
+	@RequestMapping("/thvalue")
+	public String thvalue(Model model){
+		model.addAttribute("name", "ljk");
+		return "/course/thvalue";
+	}
+	
+	@RequestMapping("/thaction")
+	public String thaction(Model model){
+		return "/course/thaction";
+	}
+	
+	@RequestMapping("/thid")
+	public String thid(Model model){
+		model.addAttribute("id", 123);
+		return "/course/thid";
+	}
+	
+	@RequestMapping("/thonclick")
+	public String honclick(Model model){
+		return "/course/thonclick";
+	}
+	
+	@RequestMapping("/thselected")
+	public String thselected(Model model){
+		model.addAttribute("sex", 1);
+		return "/course/thselected";
+	}
+	
+	@RequestMapping("/thsrc")
+	public String thsrc(Model model){
+		return "/course/thsrc";
+	}
+	
+	@RequestMapping("/thstyle")
+	public String thstyle(Model model){
+		model.addAttribute("isShow", true);
+		return "/course/thstyle";
+	}
+	
+	@RequestMapping("/thwith")
+	public String thwith(Model model){
+		model.addAttribute("today", new Date());
+		
+		List<User> users = new ArrayList<User>();
+		users.add(new User("ljk",18));
+		users.add(new User("ljk2",18));
+		model.addAttribute("users",users);
+		return "/course/thwith";
+	}
 	
 	
 }
