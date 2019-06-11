@@ -31,7 +31,7 @@ SpringBoot2.x 个人学习示例程序
 - [SpringBoot2.0 集成邮件服务教程](https://blog.csdn.net/ljk126wy/article/details/83239398)
 - [SpringBoot2.0 使用定时任务教程](https://blog.csdn.net/ljk126wy/article/details/83079070)
 - [SpringBoot2.0 使用spirngDataJpa教程](https://blog.csdn.net/ljk126wy/article/details/82819948)
-- [SpringBoot2.0 使用mybatis教程](https://blog.csdn.net/ljk126wy/article/details/83141118)
+- [SpringBoot2.0 使用mybatis教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E6%95%B4%E5%90%88-MyBatis)
 - [SpringBoot2.0 通过自定义配置类整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE%E7%B1%BB%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))
 - [SpringBoot2.0 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))
 # SpringBoot2.x 高级应用篇
