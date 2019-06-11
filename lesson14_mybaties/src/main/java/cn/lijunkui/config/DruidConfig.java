@@ -15,7 +15,7 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.google.common.collect.Lists;
 
-@Configuration
+//@Configuration
 public class DruidConfig {
 	@ConfigurationProperties(prefix="spring.druid")
 	@Bean(initMethod="init",destroyMethod="close")
