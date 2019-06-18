@@ -1,5 +1,6 @@
 **摘要:首先说明一下该博客教程是转载泥瓦匠BYSocket的文章 原创出处 **[https://www.bysocket.com](https://www.bysocket.com)**「作者公众号：泥瓦匠BYSocket 」**
 **原文地址：**[https://www.bysocket.com/springboot/2358.html](https://www.bysocket.com/springboot/2358.html)  **非常感谢泥瓦匠BYSocket的技术总结** 。
+
 文章工程：
 
 * JDK 1.8
@@ -204,13 +205,21 @@ cd springboot-webflux-4-thymeleaf
 mvn clean install
 在控制台中看到成功的输出：
 ... 省略
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] BUILD SUCCESS
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] Total time: 01:30 min
+
 [INFO] Finished at: 2017-10-15T10:00:54+08:00
+
 [INFO] Final Memory: 31M/174M
+
 [INFO] ------------------------------------------------------------------------
+
 在 IDEA 中执行 Application 类启动，任意正常模式或者 Debug 模式。可以在控制台看到成功运行的输出：
 ... 省略
 2018-04-10 08:43:39.932  INFO 2052 --- [ctor-http-nio-1] r.ipc.netty.tcp.BlockingNettyContext     : Started HttpServer on /0:0:0:0:0:0:0:0:8080
