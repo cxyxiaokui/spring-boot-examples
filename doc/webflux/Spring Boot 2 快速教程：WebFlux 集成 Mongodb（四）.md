@@ -313,17 +313,36 @@ mvn clean install
 ![图片](https://uploader.shimo.im/f/m9MsSg7DaO4znwVp.png!thumbnail)
 ### 7.1 连接 MongoDB , 验证数据
 连接 MongoDB
+```
 docker run -it --rm --link mongo:mongo mongo mongo -u admin -p admin --authenticationDatabase admin mongo/admin
+```
 ![图片](https://uploader.shimo.im/f/TrEbzBMSSvw9ZCiC.png!thumbnail)
+
 显示库列表：
+
+```
 show dbs
+```
+
 使用某数据库
+
+```
 use admin
+```
 显示表列表
+
+```
 show collections
+```
+
 如果存在 city 表，格式化显示 city 表内容：
+
+```
 db.city.find().pretty()
-![图片](https://uploader.shimo.im/f/iP2r9rwpbCIciB90.png!thumbnail)
+```
+
+![图片](http://springforall.ufile.ucloud.com.cn/static/img/093c97deaa04b8855291fcb9765edd011523884)
+
 ## 八、总结
 这里，探讨了 Spring WebFlux 的如何整合 MongoDB 。整合其他存储 Cassandra、Redis、Couchbase，就大同小异了。下面，我们能会整合 Thymeleaf，更好的页面展示给大家。顺便让大家学习下 Thymeleaf 的基本用法。
 
