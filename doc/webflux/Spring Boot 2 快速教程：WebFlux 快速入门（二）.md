@@ -175,19 +175,31 @@ cd springboot-webflux-1-quickstart
 mvn clean install
 在控制台中看到成功的输出：
 ... 省略
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] BUILD SUCCESS
+
 [INFO] ------------------------------------------------------------------------
+
 [INFO] Total time: 01:30 min
+
 [INFO] Finished at: 2017-10-15T10:00:54+08:00
+
 [INFO] Final Memory: 31M/174M
+
 [INFO] ------------------------------------------------------------------------
+
 5.5.1 运行工程
 在 IDEA 中执行 Application 类启动，任意正常模式或者 Debug 模式。可以在控制台看到成功运行的输出：
 ... 省略
+
 2018-04-10 08:43:39.932  INFO 2052 --- [ctor-http-nio-1] r.ipc.netty.tcp.BlockingNettyContext     : Started HttpServer on /0:0:0:0:0:0:0:0:8080
+
 2018-04-10 08:43:39.935  INFO 2052 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+
 2018-04-10 08:43:39.960  INFO 2052 --- [           main] org.spring.springboot.Application        : Started Application in 6.547 seconds (JVM running for 9.851)
+
 一看，确实是 Netty 启动的。
 打开浏览器，访问 /hello 地址，会看到如图所示的返回结果：
 ![图片](https://uploader.shimo.im/f/fA6FwqGNu8cz5OT1.png!thumbnail)
