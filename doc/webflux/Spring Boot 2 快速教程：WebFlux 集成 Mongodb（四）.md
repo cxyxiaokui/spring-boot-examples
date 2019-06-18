@@ -365,7 +365,7 @@ show collections
 db.city.find().pretty()
 ```
 
-![图片](http://springforall.ufile.ucloud.com.cn/static/img/093c97deaa04b8855291fcb9765edd011523884)
+![图片](https://raw.githubusercontent.com/zhuoqianmingyue/springbootexamples/master/doc/webflux/image/noshow.png)
 
 ## 八、总结
 这里，探讨了 Spring WebFlux 的如何整合 MongoDB 。整合其他存储 Cassandra、Redis、Couchbase，就大同小异了。下面，我们能会整合 Thymeleaf，更好的页面展示给大家。顺便让大家学习下 Thymeleaf 的基本用法。
