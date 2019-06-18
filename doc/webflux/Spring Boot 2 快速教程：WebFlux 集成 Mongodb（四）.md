@@ -20,10 +20,16 @@ MongoDB 是一个基于分布式文件存储的数据库，由 C++ 语言编写�
 MongoDB 是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。
 由于操作方便，本文用 Docker 启动一个 MognoDB 服务。如果 Docker 不会安装的，请参考此文：Docker 安装与基本操作 [https://www.jianshu.com/p/f272726db9c5](https://www.jianshu.com/p/f272726db9c5)
 Docker 安装 MognoDB 并启动如下：
+
 1、创建挂载目录
+
+```
 docker volume create mongo_data_db
 docker volume create mongo_data_configdb
+```
 2、启动 MognoDB
+
+```
 docker run -d \
     --name mongo \
     -v mongo_data_configdb:/data/configdb \
@@ -31,23 +37,42 @@ docker run -d \
     -p 27017:27017 \
     mongo \
     --auth
+ ```
+ 
 3、初始化管理员账号
+
+```
 docker exec -it mongo     mongo              admin
                         // 容器名   // mongo命令 数据库名
+```
 
 # 创建最高权限用户
+
+```
 db.createUser({ user: 'admin', pwd: 'admin', roles: [ { role: "root", db: "admin" } ] });
+```
+
 4、测试连通性
+```
 docker run -it --rm --link mongo:mongo mongo mongo -u admin -p admin --authenticationDatabase admin mongo/admin
+```
 MognoDB 基本操作：
 类似 MySQL 命令，显示库列表：
+```
 show dbs
+```
 使用某数据库
+```
 use admin
+```
 显示表列表
+```
 show collections
+```
 如果存在 city 表，格式化显示 city 表内容
+```
 db.city.find().pretty()
+```
 ## 二、结构
 类似上面讲的工程搭建，新建一个工程编写此案例。工程如图：
 ![图片](https://uploader.shimo.im/f/3bimn7S0MVogcdd8.png!thumbnail)
@@ -317,7 +342,6 @@ mvn clean install
 docker run -it --rm --link mongo:mongo mongo mongo -u admin -p admin --authenticationDatabase admin mongo/admin
 ```
 ![图片](https://uploader.shimo.im/f/TrEbzBMSSvw9ZCiC.png!thumbnail)
-
 显示库列表：
 
 ```
