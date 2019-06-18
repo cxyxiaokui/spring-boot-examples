@@ -223,8 +223,11 @@ mvn clean install
 在 IDEA 中执行 Application 类启动，任意正常模式或者 Debug 模式。可以在控制台看到成功运行的输出：
 ... 省略
 2018-04-10 08:43:39.932  INFO 2052 --- [ctor-http-nio-1] r.ipc.netty.tcp.BlockingNettyContext     : Started HttpServer on /0:0:0:0:0:0:0:0:8080
+
 2018-04-10 08:43:39.935  INFO 2052 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8080
+
 2018-04-10 08:43:39.960  INFO 2052 --- [           main] org.spring.springboot.Application        : Started Application in 6.547 seconds (JVM running for 9.851)
+
 打开浏览器，访问 [http://localhost:8080/city/hello](http://localhost:8080/city/hello) ，可以看到如图的响应：
 ![图片](https://uploader.shimo.im/f/jVsa3UIQHkYxFcx8.png!thumbnail)
 继续访问 [http://localhost:8080/city/page/list](http://localhost:8080/city/page/list) , 发现没有值，那么按照上一讲插入几条数据即可有值，如图：
