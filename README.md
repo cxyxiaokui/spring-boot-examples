@@ -16,6 +16,7 @@ SpringBoot2.x 个人学习示例程序
 您可以参考我的Wiki（目前正在维护中....）
 - [快速搭建我们的SpringBoot 2.0](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)
 - [SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)
+- [SpringBoot 热部署(devtools)配置操作](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E7%83%AD%E9%83%A8%E7%BD%B2(devtools)%E9%85%8D%E7%BD%AE%E6%93%8D%E4%BD%9C)
 - [SpringBoot2.0 开发restful 风格Api](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E5%BC%80%E5%8F%91restful-%E9%A3%8E%E6%A0%BCApi)
 - [SpringBoot 使用Hibernate Validator 进行数据校验](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E4%BD%BF%E7%94%A8Hibernate-Validator-%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C)
 - [自定义Hibernate Validator 校验注解](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89Hibernate-Validator-%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3)
