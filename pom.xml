@@ -26,6 +26,8 @@
 		<module>lesson13_springdatajpa</module>
 		<module>lesson14_mybaties</module>
 		<module>lesson15_custom_start_dependency</module>
+		<module>lesson16_spring_webflux</module>
+		<module>lesson17_redis</module>
 	</modules>
 
 	<build>
