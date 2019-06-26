@@ -341,9 +341,8 @@ mvn clean install
 ```
 docker run -it --rm --link mongo:mongo mongo mongo -u admin -p admin --authenticationDatabase admin mongo/admin
 ```
-![图片](https://uploader.shimo.im/f/TrEbzBMSSvw9ZCiC.png!thumbnail)
+![图片](https://raw.githubusercontent.com/zhuoqianmingyue/springbootexamples/master/doc/webflux/image/2.png)
 显示库列表：
-
 ```
 show dbs
 ```
