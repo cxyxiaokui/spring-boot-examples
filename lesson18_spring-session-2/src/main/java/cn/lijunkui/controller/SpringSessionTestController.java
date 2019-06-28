@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/session")
 public class SpringSessionTestController {
-	@RequestMapping("/add/{name}")
-	public String addSession(HttpServletRequest request,@PathVariable("name") String name){
+	@RequestMapping("/add/{name}/{value}")
+	public String addSession(HttpServletRequest request,@PathVariable("name") String name,@PathVariable("value") String value){
 		HttpSession session = request.getSession();
-		session.setAttribute("name",name);
+		session.setAttribute(name,value);
 		return "sessionId:"+session.getId()+" name:"+name;
 	}
 }
