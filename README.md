@@ -66,7 +66,7 @@ SpringBoot2.x 个人学习示例程序
 - [Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf 、 Mongodb 实践（六）转载](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Thymeleaf%20%E3%80%81%20Mongodb%20%E5%AE%9E%E8%B7%B5%EF%BC%88%E5%85%AD%EF%BC%89.md)
 ---
 - **lesson17_redis**  [SpringBoot2.0 快速集成 Jedis客户端 连接 redis 服务](https://zhuoqianmingyue.blog.csdn.net/article/details/93303627)
-- **lesson18_spring-session**  [SpringBoot2.0 快速集成 Jedis客户端 连接 redis 服务](https://blog.csdn.net/ljk126wy/article/details/93971421)
+- **lesson18_spring-session**  [SpringBoot2.0 整合 SpringSession 最简操作](https://blog.csdn.net/ljk126wy/article/details/93971421)
 
 - 未完待续...
 ## SpringBoot2.x 原理应用篇
