@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>小月聊天机器人极简版</h2>
+<div><label>聊天内容：</label><p id="serverMessage"></p></div>
+<input type="text" id="sendMessage"><button onclick="controllerSend()">发送</button>
+</body>
+<script language="JavaScript">
+    function controllerSend(){
+        var sendIput = document.getElementById("sendMessage");
+        var sendMessage = sendIput.value;
+        if(sendMessage.trim() == ""){
+            alert("请输入发送消息！")
+            return;
+        }
+        
+        var serverMessage = document.getElementById("serverMessage");
+        var historyMessage = serverMessage.innerHTML;
+        if(historyMessage == undefined){
+        	historyMessage ="";
+        }
+        serverMessage.innerHTML= historyMessage+"<br>"+
+        						"我："+sendMessage+"<br>";
+        historyMessage = serverMessage.innerHTML;
+        //创建异步对象
+        var xhr = new XMLHttpRequest();
+        //设置请求的类型及url
+        xhr.open('get', 'http://localhost:8080/sbe/rebot/chat/'+sendMessage );
+        //发送请求
+        xhr.send();
+        xhr.onreadystatechange = function () {
+            // 这步为判断服务器是否正确响应
+            if (xhr.readyState == 4 && xhr.status == 200) {
+            	//alert(xhr.responseText);
+            	 serverMessage.innerHTML= historyMessage+"<br>"+
+					"小月："+xhr.responseText+"<br>";
+                console.log(xhr.responseText);
+                sendIput.value = "";
+            }
+        };
+    }
+</script>
+</html>

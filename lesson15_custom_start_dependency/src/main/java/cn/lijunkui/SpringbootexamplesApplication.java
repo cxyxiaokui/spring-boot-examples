@@ -2,8 +2,8 @@ package cn.lijunkui;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import cn.lijunkui.httpclient.enable.EnableHttpClient;
 
-import cn.lijunkui.enable.EnableHttpClient;
 
 @SpringBootApplication
 @EnableHttpClient()
