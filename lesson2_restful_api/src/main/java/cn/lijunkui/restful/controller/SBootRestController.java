@@ -1,6 +1,10 @@
 package cn.lijunkui.restful.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.validation.BindingResult;
@@ -35,6 +39,31 @@ public class SBootRestController {
         return user;
     }
     /**
+     * 根据用户id 查询用户
+     * @return
+     */
+    @GetMapping()
+    public List<User> getAll(){
+        User user = new User();
+        user.setName("lijunkui");
+        user.setAge(18);
+        
+        User user2 = new User();
+        user2.setName("lijunkui");
+        user2.setAge(18);
+        
+        User user3 = new User();
+        user3.setName("lijunkui");
+        user3.setAge(18);
+        
+        List<User> userList = new ArrayList<User>();
+        userList.add(user);
+        userList.add(user2);
+        userList.add(user3);
+        
+        return userList;
+    }
+    /**
      * 添加用户
      */
     @PostMapping()
@@ -63,9 +92,6 @@ public class SBootRestController {
      */
     @DeleteMapping("/{id}")
     public void delete(@PathVariable("id") Long id){
-        User user = new User();
-        user.setName("lijunkui");
-        user.setAge(18);
         log.info("springboot 删除用户成功："+"id:{}",id);
     }
 }
