@@ -1,4 +1,4 @@
-package cn.lijunkui.rabbitmq.helloworld;
+package cn.lijunkui.rabbitmq.direct;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

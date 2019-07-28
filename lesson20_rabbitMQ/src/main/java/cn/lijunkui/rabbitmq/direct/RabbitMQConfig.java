@@ -1,4 +1,4 @@
-package cn.lijunkui.rabbitmq.helloworld;
+package cn.lijunkui.rabbitmq.direct;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
