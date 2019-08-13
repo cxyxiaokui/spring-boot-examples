@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!--
+See javadoc API for class org.thymeleaf.expression.Aggregates
+ 
+计算和。如果数组或集合为空，则返回空值
+${#aggregates.sum(array)}
+${#aggregates.sum(collection)}
+计算平均值。如果数组或集合为空，则返回空值
+${#aggregates.avg(array)}
+${#aggregates.avg(collection)}
+ -->
+ <p th:text="${#aggregates.sum(array)} "></p>
+ <p th:text="${#aggregates.sum(list)} "></p>
+ <p th:text="${#aggregates.avg(list)} "></p>
+ <p th:text="${#aggregates.avg(list)} "></p>
+</body>
+</html>

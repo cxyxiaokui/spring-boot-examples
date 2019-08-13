@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/learn?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+# Ddl-auto :  Create: 自动创建表 Update:自动修改表  Create-drop:应用停下来会把表删除掉 None:什么都不做  Validate:类和表明是否一致
+  jpa:
+    show-sql: true # 在日志中输出sql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true #格式化sql语句
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect #设置生成表的存储引擎为 InnoDB

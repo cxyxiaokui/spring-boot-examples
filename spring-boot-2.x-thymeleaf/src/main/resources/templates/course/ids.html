@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+See javadoc API for class org.thymeleaf.expression.Ids
+
+通常在th:id属性中使用，用于将计数器附加到id属性值 因此，即使在迭代过程中，它仍然是唯一的
+${#ids.seq('someId')}
+
+通常在th:中用于<label>标记中的属性，以便这些标签可以引用id
+如果ids.seq（…）函数生成。
+取决于<label>是在具有ids.seq（…）的元素之前还是之后
+函数，应调用“next”（标签在“seq”之前）或“prev”函数（标签在“seq”之后）。
+${#ids.next('someId')}
+${#ids.prev('someId')}
+ -->
+
+</body>
+</html>

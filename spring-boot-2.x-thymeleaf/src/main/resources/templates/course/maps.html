@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+See javadoc API for class org.thymeleaf.expression.Maps
+计算长度
+${#maps.size(map)}
+检查map是否为空
+${#maps.isEmpty(map)}
+检查映射中是否包含键或值
+${#maps.containsKey(map, key)}
+${#maps.containsAllKeys(map, keys)}
+${#maps.containsValue(map, value)}
+${#maps.containsAllValues(map, value)}
+ -->
+<p th:text="${#maps.size(map)} "></p>
+<p th:text="${#maps.isEmpty(map)} "></p>
+<p th:text="${#maps.containsKey(map, '1')}"></p>
+<!-- keys 可以是数组可以是集合 -->
+<p th:text="${#maps.containsAllKeys(map, keys)}"></p>
+<p th:text="${#maps.containsValue(map, 2)}"></p>
+<!-- values 可以是数组可以是集合 -->
+<p th:text="${#maps.containsAllValues(map, values)}"></p>
+
+</body>
+</html>

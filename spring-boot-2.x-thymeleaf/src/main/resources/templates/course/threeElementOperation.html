@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p th:class=" 'even'? 'even' : 'odd'" th:text=" 'even'? 'even' : 'odd'"></p>
+	<p th:value="${name eq 'ljk' ? '帅哥':'丑男'}" th:text="${name eq 'ljk' ? '帅哥':'丑男'}"></p>
+</body>
+</html>

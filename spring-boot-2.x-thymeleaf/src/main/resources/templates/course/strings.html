@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+See javadoc API for class org.thymeleaf.expression.Strings
+
+字符串转换
+${#strings.toString(obj)} 
+
+检查字符串是否为空（或空）。在检查前执行trim（）操作
+也适用于数组、列表或集合
+${#strings.isEmpty(name)}
+${#strings.arrayIsEmpty(nameArr)}//如果为null则返回null 如果里面数据为null则为false否则为true
+${#strings.listIsEmpty(nameList)}
+${#strings.setIsEmpty(nameSet)}
+
+对字符串执行“isEmpty（）”检查，如果为false，则返回该字符串，默认为
+如果为真，则另一个指定的字符串。
+也适用于数组、列表或集合
+${#strings.defaultString(text,default)}
+${#strings.arrayDefaultString(textArr,default)}
+${#strings.listDefaultString(textList,default)}
+${#strings.setDefaultString(textSet,default)}
+
+检查字符串中是否包含片段也适用于数组、列表或集合
+${#strings.contains(name,'ez')}                     // also array*, list* and set*
+${#strings.containsIgnoreCase(name,'ez')}    // also array*, list* and set*
+
+检查字符串是以片段开头还是结尾也适用于数组、列表或集合
+${#strings.startsWith(name,'Don')}                  // also array*, list* and set*
+${#strings.endsWith(name,endingFragment)}           // also array*, list* and set*
+子串相关操作也适用于数组、列表或集合
+${#strings.indexOf(name,frag)}                      // also array*, list* and set*
+${#strings.substring(name,3,5)}                     // also array*, list* and set*
+${#strings.substringAfter(name,prefix)}             // also array*, list* and set*
+${#strings.substringBefore(name,suffix)}            // also array*, list* and set*
+${#strings.replace(name,'las','ler')}   // also array*, list* and set*
+
+追加和预付也适用于数组、列表或集合
+${#strings.prepend(str,prefix)}                     // also array*, list* and set*
+${#strings.append(str,suffix)}   // also array*, list* and set*
+
+变更大小写也适用于数组、列表或集合。
+${#strings.toUpperCase(name)}                       // also array*, list* and set*
+${#strings.toLowerCase(name)}                       // also array*, list* and set*
+
+拆分和连接
+${#strings.arrayJoin(namesArray,',')}
+${#strings.listJoin(namesList,',')}
+${#strings.setJoin(namesSet,',')}
+${#strings.arraySplit(namesStr,',')}                // returns String[]
+${#strings.listSplit(namesStr,',')}                 // returns List<String>
+${#strings.setSplit(namesStr,',')}                  // returns Set<String>
+
+
+Trim 还可用于数组、列表或集合
+${#strings.trim(str)}     
+计算长度也适用于数组、列表或集合。
+${#strings.length(str)}                             // also array*, list* and set*
+
+缩写文本，使其最大大小为n。如果文本较大，则
+将被裁剪并用“…”完成。
+也适用于数组、列表或集合
+${#strings.abbreviate(str,10)}  
+
+将第一个字符转换为大写（反之亦然）
+${#strings.capitalize(str)}                         // also array*, list* and set*
+${#strings.unCapitalize(str)}                       // also array*, list* and set*
+
+将每个单词的第一个字符转换为大写
+${#strings.capitalizeWords(str)}                    // also array*, list* and set*
+${#strings.capitalizeWords(str,delimiters)}         // also array*, list* and set*
+转义字符串
+${#strings.escapeXml(str)}                          // also array*, list* and set*
+${#strings.escapeJava(str)}                         // also array*, list* and set*
+${#strings.escapeJavaScript(str)}                   // also array*, list* and set*
+${#strings.unescapeJava(str)}                       // also array*, list* and set*
+${#strings.unescapeJavaScript(str)}                 // also array*, list* and set*
+空安全比较和连接
+${#strings.equals(first, second)}
+${#strings.equalsIgnoreCase(first, second)}
+${#strings.concat(values...)}
+${#strings.concatReplaceNulls(nullValue, values...)}
+Random
+${#strings.randomAlphanumeric(count)}
+
+ -->
+<p th:text="${object}"></p> 
+<p th:text="${#strings.toString(object)}"></p>     
+<p th:text="${#strings.toString(numList)}"></p>
+<br>---------------------------------------------<br>
+<p th:text="${#strings.isEmpty(name)}"></p>
+<p th:text="${#strings.arrayIsEmpty(nameArr)}"></p>
+<p th:text="${#strings.listIsEmpty(nameList)}"></p>
+<p th:text="${#strings.setIsEmpty(nameSet)}"></p>
+<br>---------------------------------------------<br>
+<p th:text="${#strings.defaultString(text,'该值为null')}"></p>
+<p th:text="${#strings.arrayDefaultString(textArray,'该值为null')}"></p>
+<p th:text="${#strings.listDefaultString(textList,'该值为null')}"></p>
+<p th:text="${#strings.setDefaultString(textSet,'该值为null')}"></p>	
+<br>---------------------------------------------<br> 
+<p th:text="${#strings.contains('abcez','ez')}"></p>
+<p th:text="${#strings.containsIgnoreCase('abcEZ','ez')}"></p>
+<br>---------------------------------------------<br>
+<p th:text="${#strings.startsWith('Donabcez','Don')}"></p>
+<p th:text="${#strings.endsWith('Donabcezn','n')}"></p> 
+<br>---------------------------------------------<br>
+<p th:text="${#strings.indexOf('abcefg','e')}"></p>                      
+<p th:text="${#strings.substring('abcefg',3,5)}"></p>                    
+<p th:text="${#strings.substringAfter('baceafg','a')}"></p>             
+<p th:text="${#strings.substringBefore('bcaeefag','a')}"></p>          
+<p th:text="${#strings.replace('lasabce','las','ler')}"></p>
+<br>---------------------------------------------<br> 
+<p th:text="${#strings.prepend('abc','012')}"></p>
+<p th:text="${#strings.append('abc','456')}"></p>
+<br>---------------------------------------------<br>
+<p th:text="${#strings.toUpperCase('abc')}"></p>
+<p th:text="${#strings.toLowerCase('ABC')}"></p>  
+<br>---------------------------------------------<br>   
+<p th:text="${#strings.arrayJoin(namesArray,',')}"></p>
+<p th:text="${#strings.listJoin(namesList,',')}"></p>
+<p th:text="${#strings.setJoin(namesSet,',')}"></p>
+<p th:text="${#strings.arraySplit('a,b,c',',')}"></p>                
+<p th:text="${#strings.listSplit('a,b,c',',')}"></p>                 
+<p th:text="${#strings.setSplit('a,b,c',',')}"></p>
+<br>---------------------------------------------<br>  
+<p th:text="${#strings.trim(' abc ')}"></p> 
+<br>---------------------------------------------<br>
+<p th:text="${#strings.length('abc')}"></p>
+<br>---------------------------------------------<br>
+<!-- 缩写文本，使其最大大小为n。如果文本较大，则将被裁剪并用“…”完成。也适用于数组、列表或集合 -->
+<p th:text="${#strings.abbreviate('12345678910',10)}"></p> 
+<br>---------------------------------------------<br>
+<!-- 将第一个字符转换为大写（反之亦然） --> 
+<p th:text="${#strings.capitalize('aBC')}"></p> 
+<p th:text="${#strings.unCapitalize('Abc')}"></p>
+<br>---------------------------------------------<br> 
+<!-- 将每个单词的第一个字符转换为大写 --> 
+<p th:text="${#strings.capitalizeWords('abc bcd')}"></p>
+<!-- 第二个字符表示一什么进行分隔表示第二个单词 --> 
+<p th:text="${#strings.capitalizeWords('abc,bcd',',')}"></p>  
+<br>---------------------------------------------<br> 
+<!-- 转义字符串  -->
+<p th:text="${#strings.escapeXml('<book>正面管教</book>')}"></p>  
+<p th:text="${#strings.escapeJava('int i = 0')}"></p>    
+<p th:text="${#strings.unescapeJava('int a = 0')}"></p>  
+<p th:text="${#strings.escapeJavaScript('var a= 0;')}"></p>  
+<p th:text="${#strings.unescapeJavaScript('var a= 0;')}"></p>    
+<br>---------------------------------------------<br>    
+
+<p th:text="${#strings.equals('a', 'b')}"></p>  
+<p th:text="${#strings.equalsIgnoreCase('a', 'A')}"></p>  
+<p th:text="${#strings.concat('a','b','c','d')}"></p> 
+<p th:text="${#strings.concatReplaceNulls('#', 'a','b','c','d',null,null)}"></p> 
+<br>---------------------------------------------<br>   
+
+<p th:text="${#strings.randomAlphanumeric(4)}"></p>      
+</body>
+</html>
