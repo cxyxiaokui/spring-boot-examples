@@ -17,7 +17,7 @@
 		<module>spring-boot-2.x-jsp</module>
 		<module>spring-boot-2.x-restful-api</module>
 		<module>spring-boot-2.x-thymeleaf</module>
-		<module>lesson6_unified_anomaly</module>
+		<module>spring-boot-2.x-unified_anomaly</module>
 		<module>spring-boot-2.x-jwt</module>
 		<module>spring-boot-2.x-swagger</module>
 		<module>spring-boot-2.x_websocket</module>
