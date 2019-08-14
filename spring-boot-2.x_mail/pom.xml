@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.lijunkui</groupId>
-	<artifactId>lesson11_mail</artifactId>
+	<artifactId>spring-boot-2.x_mail</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lesson11_mail</name>
+	<name>spring-boot-2.x_mail</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

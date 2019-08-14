@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.lijunkui</groupId>
-	<artifactId>lesson9_websocket</artifactId>
+	<artifactId>spring-boot-2.x_websocket</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lesson9_websocket</name>
+	<name>spring-boot-2.x_websocket</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

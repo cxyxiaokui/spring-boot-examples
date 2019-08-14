@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.lijunkui</groupId>
-	<artifactId>lesson12_timed_task</artifactId>
+	<artifactId>spring-boot-2.x_task</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lesson12_timed_task</name>
+	<name>spring-boot-2.x_task</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

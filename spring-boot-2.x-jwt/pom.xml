@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.lijunkui</groupId>
-	<artifactId>lesson7_jwt</artifactId>
+	<artifactId>spring-boot-2.x-jwt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lesson7_jwt</name>
+	<name>spring-boot-2.x-jwt</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

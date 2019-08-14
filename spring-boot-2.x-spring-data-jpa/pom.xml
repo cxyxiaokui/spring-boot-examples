@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.lijunkui</groupId>
-	<artifactId>lesson13_springdatajpa</artifactId>
+	<artifactId>spring-boot-2.x-spring-data-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>lesson13_springdatajpa</name>
+	<name>spring-boot-2.x-spring-data-jpa</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
