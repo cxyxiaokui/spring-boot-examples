@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body >
+
+<h3>购买商品：苹果</h3>
+<h3>价格：20</h3>
+<h3>数量：10个</h3>
+<div id="qrcodeCanvas"></div>
+
+<button style="width: 8%; height: 30px; alignment: center; background: #b49e8f" onclick="commitOrder()">生成支付二维码</button>
+<script type="text/javascript" src="/sbe2/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/sbe2/jquery.qrcode.js"></script>
+<script type="text/javascript" src="/sbe2/qrcode.js"></script>
+<script>
+    function commitOrder() {
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:8090/sbe2/wxPayOfficial/pay",
+            data: null,
+            success: function(data) {
+            	jQuery('#qrcodeCanvas').qrcode({
+            		text: data,
+            		typeNumber:-10
+            	});	
+            }
+
+        })
+    }
+</script>
+
+
+</body>
+</html>
