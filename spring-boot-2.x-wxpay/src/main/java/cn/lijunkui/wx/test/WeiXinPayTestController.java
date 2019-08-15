@@ -42,8 +42,8 @@ public class WeiXinPayTestController {
 	 * 正式支付
 	 * @return
 	 */
-	@RequestMapping("/pay")
-	public String realpay(){
+	@RequestMapping("/nativePay")
+	public String nativePay(){
 		
 		/*配置微信支付基础信息参数*/
 		Map<String, String> requestData = new HashMap<String, String>();
