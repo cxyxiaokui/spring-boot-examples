@@ -18,12 +18,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
-import com.github.wxpay.sdk.WXPayUtil;
-
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.XmlUtil;
-import cn.lijunkui.wx.config.WeiXinPayProperties;
+import cn.lijunkui.wx.test.config.WeiXinPayProperties;
 import cn.lijunkui.wx.utils.WeiXinUtil;
 
 @Controller
