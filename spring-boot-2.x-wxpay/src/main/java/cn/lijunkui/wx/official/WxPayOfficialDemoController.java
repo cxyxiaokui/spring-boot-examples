@@ -2,12 +2,16 @@ package cn.lijunkui.wx.official;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import cn.lijunkui.wx.official.config.WeiXinPayProperties;
+
+import cn.lijunkui.wx.official.config.WeiXinOfficPayProperties;
+
 import com.github.wxpay.sdk.WXPay;
 
 @RestController
@@ -15,7 +19,7 @@ import com.github.wxpay.sdk.WXPay;
 public class WxPayOfficialDemoController {
 	
 	@Autowired
-	private WeiXinPayProperties weiXinPayProperties;
+	private WeiXinOfficPayProperties weiXinPayProperties;
 	
 	/**
 	 * 微信扫码支付
@@ -27,12 +31,12 @@ public class WxPayOfficialDemoController {
 			WXPay wxpay = new WXPay(weiXinPayProperties);
 			 Map<String, String> data = new HashMap<String, String>();
 		        data.put("body", "购买苹果10个");
-		        data.put("out_trade_no", "2016090910595900000012");
+		        data.put("out_trade_no", generateOrderSn());
 		        data.put("device_info", "");
 		        data.put("fee_type", "CNY");
 		        data.put("total_fee", "1");
 		        data.put("spbill_create_ip", "123.12.12.123");
-		        data.put("notify_url", "http://www.example.com/wxpay/notify");
+		        data.put("notify_url", "http://localhost:8090/sbe2/wxPayOfficial/wxNotify");
 		        data.put("trade_type", "NATIVE");  // 此处指定为扫码支付
 		        data.put("product_id", "12");
 		        Map<String, String> resp = wxpay.unifiedOrder(data);
@@ -47,6 +51,12 @@ public class WxPayOfficialDemoController {
 		return null;
 	}
 	
+	private String generateOrderSn() {
+		 //生成唯一id
+        String id= UUID.randomUUID().toString().replace("-", "");
+		return id;
+	}
+
 	/**
 	 * 微信支付成功后回调地址
 	 * @param request
