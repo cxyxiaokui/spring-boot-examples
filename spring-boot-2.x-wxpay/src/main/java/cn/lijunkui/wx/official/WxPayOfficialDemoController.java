@@ -21,8 +21,8 @@ public class WxPayOfficialDemoController {
 	 * 微信扫码支付
 	 * @return
 	 */
-	@RequestMapping("/pay")
-	public String pay(){
+	@RequestMapping("/naitvePay")
+	public String naitvePay(){
 		try {
 			WXPay wxpay = new WXPay(weiXinPayProperties);
 			 Map<String, String> data = new HashMap<String, String>();
