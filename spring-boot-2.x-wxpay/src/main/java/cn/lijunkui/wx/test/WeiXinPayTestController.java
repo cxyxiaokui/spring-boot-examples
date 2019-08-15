@@ -50,7 +50,8 @@ public class WeiXinPayTestController {
 		requestData.put("appid", weiXinPayProperties.getAppid());//公众账号ID
 		requestData.put("mch_id", weiXinPayProperties.getMchId());//商户号
 		requestData.put("nonce_str", RandomUtil.randomString(15));//随机字符串 32位以内
-		requestData.put("spbill_create_ip", "127.0.0.1");//终端IP 支持IPV4和IPV6
+		// APP和网页支付提交用户端ip，Native支付填调用微信支付API的机器IP。
+		requestData.put("spbill_create_ip", "15.23.160.111");
 		requestData.put("trade_type", "NATIVE");//交易类型 扫码支付
 		/*配置微信支付自定义支付信息参数*/
 		requestData.put("attach", "附加数据远洋返回");
@@ -100,7 +101,7 @@ public class WeiXinPayTestController {
 	@RequestMapping("/wxNotify")
 	public void wxNotify(HttpServletRequest request) throws Exception{
 		Map<String, String> parseNotifyParameter = parseNotifyParameter(request);
-		String sign = WeiXinUtil.generateSign(parseNotifyParameter,weiXinPayProperties.getSandboxKey());//生成签名
+		String sign = WeiXinUtil.generateSign(parseNotifyParameter,weiXinPayProperties.getKey());//生成签名
 		if(sign.equals(parseNotifyParameter.get("sign"))){
 			//支付成功
 		}
