@@ -19,7 +19,7 @@
     function commitOrder() {
         $.ajax({
             type: "POST",
-            url: "http://localhost:8090/sbe2/wx/naitvePay",
+            url: "http://localhost:8090/sbe2/wx/nativePay",
             data: null,
             success: function(data) {
             	jQuery('#qrcodeCanvas').qrcode({
