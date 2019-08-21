@@ -68,6 +68,8 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **lesson14_mybaties**
 
+- [SpringBoot 2 使用异步调用@Async](https://zhuoqianmingyue.blog.csdn.net/article/details/87989647) 
+
 - **spring-boot-2.x-custom-start-dependency** 博客教程整理中
 
 - 未完待续...
