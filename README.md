@@ -50,7 +50,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [Springboot 2 整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)  **spring-boot-2.x-jwt**   
 
-- [SpringBoot 2 整合丝袜哥(swagger)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E6%95%B4%E5%90%88%E4%B8%9D%E8%A2%9C%E5%93%A5(swagger))  **spring-boot-2.x-swagger** 
+- [SpringBoot 2 整合丝袜哥(swagger)](https://zhuoqianmingyue.blog.csdn.net/article/details/99955270)  **spring-boot-2.x-swagger** 
 
 - [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**  
 
