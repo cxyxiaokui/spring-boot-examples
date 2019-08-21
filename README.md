@@ -28,7 +28,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [快速搭建我们的SpringBoot 2](https://zhuoqianmingyue.blog.csdn.net/article/details/99953763)  **spring-boot-2.x-start**   
 
-- [SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)  **spring-boot-2.x-start**  
+- [SpringBoot项目启动运行方式](https://zhuoqianmingyue.blog.csdn.net/article/details/88073253)  **spring-boot-2.x-start**  
 
 - [SpringBoot 热部署(devtools)配置操作](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E7%83%AD%E9%83%A8%E7%BD%B2(devtools)%E9%85%8D%E7%BD%AE%E6%93%8D%E4%BD%9C)  **spring-boot-2.x-start**  
 
