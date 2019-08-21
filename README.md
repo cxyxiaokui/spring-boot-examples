@@ -26,7 +26,7 @@ SpringBoot2.x 个人学习示例程序
 
 ## SpringBoot2.x 基础应用篇
 
-- [快速搭建我们的SpringBoot 2](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)  **spring-boot-2.x-start**   
+- [快速搭建我们的SpringBoot 2](https://zhuoqianmingyue.blog.csdn.net/article/details/99953763)  **spring-boot-2.x-start**   
 
 - [SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)  **spring-boot-2.x-start**  
 
