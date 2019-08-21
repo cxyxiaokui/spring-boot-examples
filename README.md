@@ -30,7 +30,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot项目启动运行方式](https://zhuoqianmingyue.blog.csdn.net/article/details/88073253)  **spring-boot-2.x-start**  
 
-- [SpringBoot 热部署(devtools)配置操作](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E7%83%AD%E9%83%A8%E7%BD%B2(devtools)%E9%85%8D%E7%BD%AE%E6%93%8D%E4%BD%9C)  **spring-boot-2.x-start**  
+- [SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
 
 - [SpringBoot 2开发restful 风格Api](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E5%BC%80%E5%8F%91restful-%E9%A3%8E%E6%A0%BCApi)  **spring-boot-2.x-restful-api**  
 
