@@ -26,11 +26,11 @@ SpringBoot2.x 个人学习示例程序
 
 ## SpringBoot2.x 基础应用篇
 
-- [快速搭建我们的SpringBoot 2](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E6%88%91%E4%BB%AC%E7%9A%84SpringBoot-2.0)  **spring-boot-2.x-start**   
+- [快速搭建我们的SpringBoot 2](https://zhuoqianmingyue.blog.csdn.net/article/details/99953763)  **spring-boot-2.x-start**   
 
-- [SpringBoot项目启动运行方式](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%90%AF%E5%8A%A8%E8%BF%90%E8%A1%8C%E6%96%B9%E5%BC%8F)  **spring-boot-2.x-start**  
+- [SpringBoot项目启动运行方式](https://zhuoqianmingyue.blog.csdn.net/article/details/88073253)  **spring-boot-2.x-start**  
 
-- [SpringBoot 热部署(devtools)配置操作](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E7%83%AD%E9%83%A8%E7%BD%B2(devtools)%E9%85%8D%E7%BD%AE%E6%93%8D%E4%BD%9C)  **spring-boot-2.x-start**  
+- [SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
 
 - [SpringBoot 2开发restful 风格Api](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E5%BC%80%E5%8F%91restful-%E9%A3%8E%E6%A0%BCApi)  **spring-boot-2.x-restful-api**  
 
@@ -50,7 +50,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [Springboot 2 整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)  **spring-boot-2.x-jwt**   
 
-- [SpringBoot 2 整合丝袜哥(swagger)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E6%95%B4%E5%90%88%E4%B8%9D%E8%A2%9C%E5%93%A5(swagger))  **spring-boot-2.x-swagger** 
+- [SpringBoot 2 整合丝袜哥(swagger)](https://zhuoqianmingyue.blog.csdn.net/article/details/99955270)  **spring-boot-2.x-swagger** 
 
 - [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**  
 
@@ -68,6 +68,10 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **lesson14_mybaties**
 
+- [SpringBoot 2 使用异步调用@Async](https://zhuoqianmingyue.blog.csdn.net/article/details/87989647)
+
+- [SpringBoot 2 使用SpringBoot Admin 监控](https://zhuoqianmingyue.blog.csdn.net/article/details/82785269) 
+
 - **spring-boot-2.x-custom-start-dependency** 博客教程整理中
 
 - 未完待续...
@@ -84,6 +88,9 @@ SpringBoot2.x 个人学习示例程序
 
 - 未完待续...
 ## SpringBoot2.x 原理应用篇
+
+- [SpringBoot 2之自定义 Banner 日志输出篇](https://zhuoqianmingyue.blog.csdn.net/article/details/83109152) 
+
 目前正在维护中... 尽请期待
 
 
