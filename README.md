@@ -89,7 +89,9 @@ SpringBoot2.x 个人学习示例程序
 - 未完待续...
 ## SpringBoot2.x 原理应用篇
 
-- [SpringBoot 2之自定义 Banner 日志输出篇](https://zhuoqianmingyue.blog.csdn.net/article/details/83109152) 
+- [SpringBoot 2之自定义 Banner 日志输出篇](https://zhuoqianmingyue.blog.csdn.net/article/details/83109152)
+
+- [SpringBoot 2.x 解析BeanPostProcessor原理篇](https://blog.csdn.net/ljk126wy/article/details/83305455)
 
 目前正在维护中... 尽请期待
 
