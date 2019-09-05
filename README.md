@@ -32,9 +32,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
 
-- [SpringBoot 2开发restful 风格Api](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E5%BC%80%E5%8F%91restful-%E9%A3%8E%E6%A0%BCApi)  **spring-boot-2.x-restful-api**  
+- [SpringBoot 2开发restful 风格Api](https://blog.csdn.net/ljk126wy/article/details/89196740)  **spring-boot-2.x-restful-api**  
 
-- [SpringBoot 使用Hibernate Validator 进行数据校验](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E4%BD%BF%E7%94%A8Hibernate-Validator-%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C)  **spring-boot-2.x-restful-api**
+- [SpringBoot 使用Hibernate Validator 进行数据校验](https://zhuoqianmingyue.blog.csdn.net/article/details/89227708)  **spring-boot-2.x-restful-api**
 
 - [自定义Hibernate Validator 校验注解](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89Hibernate-Validator-%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3)  **spring-boot-2.x-restful-api**  
 
