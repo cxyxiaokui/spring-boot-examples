@@ -1,1 +1,1 @@
-<h1>springBoot freemark hello world!</h1>
+<h1>SpringBoot Freemark hello world!</h1>
