@@ -34,7 +34,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转SpringBoot 2 之项目启动篇](https://mp.weixin.qq.com/s/gVkdcWP8RpJaLkOQF23JzQ)  **spring-boot-2.x-start**  
 
-- [玩转 SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
+- [玩转 SpringBoot 2 之热部署DevTools](https://mp.weixin.qq.com/s/hJeh_YDiqZjHVJoDBa2oYQ)  **spring-boot-2.x-start**  
 
 - [玩转 SpringBoot 2 快速搭建 | RESTful Api 篇](https://mp.weixin.qq.com/s/d2aB7t0NyIDVlQb4VKZciQ)  **spring-boot-2.x-restful-api**  
 
