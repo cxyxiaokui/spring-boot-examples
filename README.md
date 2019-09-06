@@ -34,7 +34,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转SpringBoot 2 之项目启动篇](https://mp.weixin.qq.com/s/gVkdcWP8RpJaLkOQF23JzQ)  **spring-boot-2.x-start**  
 
-- [SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
+- [玩转 SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
 
 - [玩转 SpringBoot 2 快速搭建 | RESTful Api 篇](https://mp.weixin.qq.com/s/d2aB7t0NyIDVlQb4VKZciQ)  **spring-boot-2.x-restful-api**  
 
@@ -42,7 +42,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
 
-- [SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
+- [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
 
 - [SpringBoot 2 之快速整合freemarker](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88freemarker)  **spring-boot-2.x-freemarker**   
 
