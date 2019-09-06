@@ -1,4 +1,4 @@
-package cn.lijunkui.restful.custominterface;
+package cn.lijunkui.restful.coutomvalidator.custominterface;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

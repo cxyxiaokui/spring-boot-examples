@@ -1,4 +1,4 @@
-package cn.lijunkui.restful.basic.controller.model;
+package cn.lijunkui.restful.basic.model;
 
 public class User {
 	private String name;
