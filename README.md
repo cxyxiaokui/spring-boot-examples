@@ -40,6 +40,8 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 快速整合 | 丝袜哥(Swagger)](https://mp.weixin.qq.com/s/X6KaClQRZbFn5-UcgxbqGQ)  **spring-boot-2.x-swagger** 
 
+- [玩转 SpringBoot 2 快速整合 Filter](https://mp.weixin.qq.com/s/WtZ63iDwXh2L5qxhGyWESg)  **spring-boot-2.x_filter** 
+
 - [SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
 
 - [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
@@ -54,9 +56,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [Springboot 2 整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)  **spring-boot-2.x-jwt**   
 
-- [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**  
-
-- [SpringBoot 2 配置定义Filter](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E9%85%8D%E7%BD%AE%E5%AE%9A%E4%B9%89Filter)  **spring-boot-2.x_filter**   
+- [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**    
 
 - [SpringBoot 2 集成邮件服务教程](https://blog.csdn.net/ljk126wy/article/details/83239398)  **spring-boot-2.x_mail**   
 
