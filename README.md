@@ -50,7 +50,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 之快速整合JSP](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88JSP)  **spring-boot-2.x-jsp**  
 
--  [SpringBoot 2 之快速整合 thymeleaf](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88-thymeleaf)  **spring-boot-2.x-thymeleaf**   
+-  [玩转 SpringBoot 2 快速整合 | Thymeleaf 篇](https://mp.weixin.qq.com/s/O53FKyrWTDPqFhHEvdDCoQ)  **spring-boot-2.x-thymeleaf**   
 
 - [SpringBoot 2 Thymeleaf使用教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-Thymeleaf%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)  **spring-boot-2.x-thymeleaf**   
 
