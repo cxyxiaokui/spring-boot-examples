@@ -18,8 +18,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import cn.lijunkui.restful.basic.controller.model.User;
+import cn.lijunkui.restful.basic.model.User;
 
 /**
  * User restful api

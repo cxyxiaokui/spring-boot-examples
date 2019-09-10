@@ -1,10 +1,9 @@
-package cn.lijunkui.restful.controller;
+package cn.lijunkui.restful.coutomvalidator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.validation.Valid;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.validation.BindingResult;
@@ -16,16 +15,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import cn.lijunkui.restful.model.User;
+import cn.lijunkui.restful.coutomvalidator.model.User;
 
 /**
  * SpringBoot restful api
  */
 @RestController()
 @RequestMapping("/bootUser")
-public class SBootRestController {
-	Logger log = LoggerFactory.getLogger(SmvcRestController.class);
+public class UserController {
+	Logger log = LoggerFactory.getLogger(UserController.class);
     /**
      * 根据用户id 查询用户
      * @return

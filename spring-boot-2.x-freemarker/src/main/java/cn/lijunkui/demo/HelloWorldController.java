@@ -1,13 +1,13 @@
-package cn.lijunkui.freemark;
+package cn.lijunkui.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/ftlDemo")
-public class FtlController {
+@RequestMapping("/hello")
+public class HelloWorldController {
 	@RequestMapping("/test")
     public String test(){
-        return "test/freemarkerDemo";
+        return "test/helloworld";
     }
 }

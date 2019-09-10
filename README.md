@@ -26,35 +26,37 @@ SpringBoot2.x 个人学习示例程序
 
 ## SpringBoot2.x 基础应用篇
 
-- [快速搭建我们的SpringBoot 2](https://zhuoqianmingyue.blog.csdn.net/article/details/99953763)  **spring-boot-2.x-start**   
+- [玩转SpringBoot 2 快速搭建 | Spring Initializr 篇](https://mp.weixin.qq.com/s/spbtRZVYzDips437o9oYvA)  **spring-boot-2.x-start** 
 
-- [SpringBoot项目启动运行方式](https://zhuoqianmingyue.blog.csdn.net/article/details/88073253)  **spring-boot-2.x-start**  
+- [玩转 SpringBoot 2 快速搭建 | IntellJ IDEA篇](https://mp.weixin.qq.com/s/Z5vebfI7dPP75-1bE_JVzA)  **spring-boot-2.x-start**  
 
-- [SpringBoot 热部署(devtools)配置操作](https://blog.csdn.net/ljk126wy/article/details/88042169)  **spring-boot-2.x-start**  
+- [玩转 SpringBoot 2 快速搭建 | SpringToolSuite 篇](https://mp.weixin.qq.com/s/OpBxjMgrOkOvccn718YStA)  **spring-boot-2.x-start**   
 
-- [SpringBoot 2开发restful 风格Api](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E5%BC%80%E5%8F%91restful-%E9%A3%8E%E6%A0%BCApi)  **spring-boot-2.x-restful-api**  
+- [玩转SpringBoot 2 之项目启动篇](https://mp.weixin.qq.com/s/gVkdcWP8RpJaLkOQF23JzQ)  **spring-boot-2.x-start**  
 
-- [SpringBoot 使用Hibernate Validator 进行数据校验](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot-%E4%BD%BF%E7%94%A8Hibernate-Validator-%E8%BF%9B%E8%A1%8C%E6%95%B0%E6%8D%AE%E6%A0%A1%E9%AA%8C)  **spring-boot-2.x-restful-api**
+- [玩转 SpringBoot 2 之热部署DevTools](https://mp.weixin.qq.com/s/hJeh_YDiqZjHVJoDBa2oYQ)  **spring-boot-2.x-start**  
 
-- [自定义Hibernate Validator 校验注解](https://github.com/zhuoqianmingyue/springbootexamples/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89Hibernate-Validator-%E6%A0%A1%E9%AA%8C%E6%B3%A8%E8%A7%A3)  **spring-boot-2.x-restful-api**  
+- [玩转 SpringBoot 2 快速搭建 | RESTful Api 篇](https://mp.weixin.qq.com/s/d2aB7t0NyIDVlQb4VKZciQ)  **spring-boot-2.x-restful-api**  
+
+- [玩转 SpringBoot 2 快速整合 | 丝袜哥(Swagger)](https://mp.weixin.qq.com/s/X6KaClQRZbFn5-UcgxbqGQ)  **spring-boot-2.x-swagger** 
+
+- [玩转 SpringBoot 2 快速整合 Filter](https://mp.weixin.qq.com/s/WtZ63iDwXh2L5qxhGyWESg)  **spring-boot-2.x_filter** 
+
+- [SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
+
+- [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
 
 - [SpringBoot 2 之快速整合freemarker](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88freemarker)  **spring-boot-2.x-freemarker**   
 
 - [SpringBoot 2 之快速整合JSP](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88JSP)  **spring-boot-2.x-jsp**  
 
--  [SpringBoot 2 之快速整合 thymeleaf](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88-thymeleaf)  **spring-boot-2.x-thymeleaf**   
+-  [玩转 SpringBoot 2 快速整合 | Thymeleaf 篇](https://mp.weixin.qq.com/s/O53FKyrWTDPqFhHEvdDCoQ)  **spring-boot-2.x-thymeleaf**   
 
 - [SpringBoot 2 Thymeleaf使用教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-Thymeleaf%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)  **spring-boot-2.x-thymeleaf**   
 
-- [SpringBoot 2 统一异常处理](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E7%BB%9F%E4%B8%80%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86)  **spring-boot-2.x-unified_anomaly**  
-
 - [Springboot 2 整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)  **spring-boot-2.x-jwt**   
 
-- [SpringBoot 2 整合丝袜哥(swagger)](https://zhuoqianmingyue.blog.csdn.net/article/details/99955270)  **spring-boot-2.x-swagger** 
-
-- [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**  
-
-- [SpringBoot 2 配置定义Filter](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E9%85%8D%E7%BD%AE%E5%AE%9A%E4%B9%89Filter)  **spring-boot-2.x_filter**   
+- [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**    
 
 - [SpringBoot 2 集成邮件服务教程](https://blog.csdn.net/ljk126wy/article/details/83239398)  **spring-boot-2.x_mail**   
 

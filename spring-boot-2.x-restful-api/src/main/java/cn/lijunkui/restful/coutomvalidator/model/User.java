@@ -1,13 +1,8 @@
-package cn.lijunkui.restful.model;
+package cn.lijunkui.restful.coutomvalidator.model;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
-
-import cn.lijunkui.restful.custominterface.Addr;
-import cn.lijunkui.restful.custominterface.AddrWithEnum;
-import cn.lijunkui.restful.custominterface.AddrWithEnum.AddrEnum;
-import cn.lijunkui.restful.custominterface.AddrWithParam;
 
 
 public class User {
