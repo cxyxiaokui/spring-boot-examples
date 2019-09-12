@@ -88,7 +88,7 @@ SpringBoot2.x 个人学习示例程序
 - [SpringBoot 2 整合 SpringSession 最简操作](https://blog.csdn.net/ljk126wy/article/details/93971421)  **spring-boot-2.x-spring-session-1** **spring-boot-2.x-spring-session-2**   
 - [SpringBoot 2 快速整合 RabbitMQ](https://blog.csdn.net/ljk126wy/article/details/97543094)  **spring-boot-2.x-rabbit-mq**  
 
-- [SpringBoot 项目中获取微信公众号下的用户信息](https://mp.weixin.qq.com/s/MFw9dWLAbEwO-giBu9rPVA)  **spring-boot-2.x-weixin**  
+- [SpringBoot中获取微信用户信息竟然这么简单！](https://mp.weixin.qq.com/s/MFw9dWLAbEwO-giBu9rPVA)  **spring-boot-2.x-weixin**  
 
 
 
