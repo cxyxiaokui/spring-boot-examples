@@ -42,7 +42,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 快速整合 Filter](https://mp.weixin.qq.com/s/WtZ63iDwXh2L5qxhGyWESg)  **spring-boot-2.x_filter** 
 
-- [SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
+- [玩转 SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
 
 - [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
 
