@@ -42,17 +42,17 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 快速整合 Filter](https://mp.weixin.qq.com/s/WtZ63iDwXh2L5qxhGyWESg)  **spring-boot-2.x_filter** 
 
-- [SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
+- [玩转 SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
 
 - [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
 
-- [SpringBoot 2 之快速整合freemarker](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88freemarker)  **spring-boot-2.x-freemarker**   
+- [玩转 SpringBoot 2 快速整合 | FreeMarker篇](https://mp.weixin.qq.com/s/dAa_KZvVEV2wK40L7WdH4g)  **spring-boot-2.x-freemarker**   
 
-- [SpringBoot 2 之快速整合JSP](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%B9%8B%E5%BF%AB%E9%80%9F%E6%95%B4%E5%90%88JSP)  **spring-boot-2.x-jsp**  
+- [玩转 SpringBoot 2 快速整合 | JSP 篇](https://mp.weixin.qq.com/s/EbysDIkDKZ9OzMN_b7_uNQ)  **spring-boot-2.x-jsp**  
 
 -  [玩转 SpringBoot 2 快速整合 | Thymeleaf 篇](https://mp.weixin.qq.com/s/O53FKyrWTDPqFhHEvdDCoQ)  **spring-boot-2.x-thymeleaf**   
 
-- [SpringBoot 2 Thymeleaf使用教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-Thymeleaf%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)  **spring-boot-2.x-thymeleaf**   
+- [史上最详 Thymeleaf 使用教程](https://mp.weixin.qq.com/s/7FLO1ChRf18QU-w9ILzeAw)  **spring-boot-2.x-thymeleaf**   
 
 - [Springboot 2 整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)  **spring-boot-2.x-jwt**   
 
@@ -79,14 +79,20 @@ SpringBoot2.x 个人学习示例程序
 - 未完待续...
 ## SpringBoot2.x 高级应用篇
 - [SpringBoot 2 使用Spring WebFlux之HelloWord教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%BD%BF%E7%94%A8Spring-WebFlux%E4%B9%8BHelloWord%E6%95%99%E7%A8%8B)  **lesson16_spring_webflux**  
-- [Spring Boot 2 快速教程：WebFlux 快速入门（二）转载](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%88%E4%BA%8C%EF%BC%89.md)
-- [Spring Boot 2 快速教程：WebFlux Restful CRUD 实践（三）转载](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20Restful%20CRUD%20%E5%AE%9E%E8%B7%B5%EF%BC%88%E4%B8%89%EF%BC%89.md)
-- [Spring Boot 2 快速教程：WebFlux 集成 Mongodb（四）转载](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Mongodb%EF%BC%88%E5%9B%9B%EF%BC%89.md)
-- [Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf（五）转载](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Thymeleaf%EF%BC%88%E4%BA%94%EF%BC%89.md)
-- [Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf 、 Mongodb 实践（六）转载](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Thymeleaf%20%E3%80%81%20Mongodb%20%E5%AE%9E%E8%B7%B5%EF%BC%88%E5%85%AD%EF%BC%89.md)
+- [Spring Boot 2 快速教程：WebFlux 快速入门（二）转载自泥瓦匠BYSocket](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%88%E4%BA%8C%EF%BC%89.md)
+- [Spring Boot 2 快速教程：WebFlux Restful CRUD 实践（三）转载自泥瓦匠BYSocket ](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20Restful%20CRUD%20%E5%AE%9E%E8%B7%B5%EF%BC%88%E4%B8%89%EF%BC%89.md)
+- [Spring Boot 2 快速教程：WebFlux 集成 Mongodb（四）转载自泥瓦匠BYSocket ](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Mongodb%EF%BC%88%E5%9B%9B%EF%BC%89.md)
+- [Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf（五）转载自泥瓦匠BYSocket ](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Thymeleaf%EF%BC%88%E4%BA%94%EF%BC%89.md)
+- [Spring Boot 2 快速教程：WebFlux 集成 Thymeleaf 、 Mongodb 实践（六）转载自泥瓦匠BYSocket ](https://github.com/zhuoqianmingyue/springbootexamples/blob/master/doc/webflux/Spring%20Boot%202%20%E5%BF%AB%E9%80%9F%E6%95%99%E7%A8%8B%EF%BC%9AWebFlux%20%E9%9B%86%E6%88%90%20Thymeleaf%20%E3%80%81%20Mongodb%20%E5%AE%9E%E8%B7%B5%EF%BC%88%E5%85%AD%EF%BC%89.md)
 - [SpringBoot 2 快速集成 Jedis客户端 连接 redis 服务](https://zhuoqianmingyue.blog.csdn.net/article/details/93303627)  **spring-boot-2.x-redis** 
 - [SpringBoot 2 整合 SpringSession 最简操作](https://blog.csdn.net/ljk126wy/article/details/93971421)  **spring-boot-2.x-spring-session-1** **spring-boot-2.x-spring-session-2**   
 - [SpringBoot 2 快速整合 RabbitMQ](https://blog.csdn.net/ljk126wy/article/details/97543094)  **spring-boot-2.x-rabbit-mq**  
+
+- [SpringBoot 2 集成微信扫码支付](https://zhuoqianmingyue.blog.csdn.net/article/details/99554766)  **spring-boot-2.x-wxpay** 
+
+- [SpringBoot中获取微信用户信息竟然这么简单！](https://mp.weixin.qq.com/s/MFw9dWLAbEwO-giBu9rPVA)  **spring-boot-2.x-weixin**  
+
+
 
 - 未完待续...
 ## SpringBoot2.x 原理应用篇
