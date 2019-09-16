@@ -46,9 +46,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
 
-- [SpringBoot 2 之快速整合freemarker](https://mp.weixin.qq.com/s/dAa_KZvVEV2wK40L7WdH4g)  **spring-boot-2.x-freemarker**   
+- [玩转 SpringBoot 2 快速整合 | FreeMarker篇](https://mp.weixin.qq.com/s/dAa_KZvVEV2wK40L7WdH4g)  **spring-boot-2.x-freemarker**   
 
-- [SpringBoot 2 之快速整合JSP](https://mp.weixin.qq.com/s/EbysDIkDKZ9OzMN_b7_uNQ)  **spring-boot-2.x-jsp**  
+- [玩转 SpringBoot 2 快速整合 | JSP 篇](https://mp.weixin.qq.com/s/EbysDIkDKZ9OzMN_b7_uNQ)  **spring-boot-2.x-jsp**  
 
 -  [玩转 SpringBoot 2 快速整合 | Thymeleaf 篇](https://mp.weixin.qq.com/s/O53FKyrWTDPqFhHEvdDCoQ)  **spring-boot-2.x-thymeleaf**   
 
