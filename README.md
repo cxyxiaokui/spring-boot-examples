@@ -90,7 +90,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 集成微信扫码支付](https://zhuoqianmingyue.blog.csdn.net/article/details/99554766)  **spring-boot-2.x-wxpay** 
 
-- [SpringBoot中获取微信用户信息竟然这么简单！](https://mp.weixin.qq.com/s/MFw9dWLAbEwO-giBu9rPVA)  **spring-boot-2.x-weixin**  
+- [SpringBoot中获取微信用户信息竟然这么简单！](https://mp.weixin.qq.com/s/MFw9dWLAbEwO-giBu9rPVA)  **spring-boot-2.x-weixin** 
+
+- [JS-SDK自定义微信分享（SpringBoot版）](https://zhuoqianmingyue.blog.csdn.net/article/details/100714362)  **spring-boot-2.x-weixin** 
 
 
 
