@@ -1,4 +1,4 @@
-package cn.lijunkui.jwt;
+package cn.lijunkui;
 
 public class User {
 	
