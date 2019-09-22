@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="/jquery-1.8.3.min.js" type="text/javascript" ></script>
+</head>
+<body>
+<span id="wx_share_span" style="display: none"></span>
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("#wx_share_span").data("shareTitle", "桌前明月教你玩微信开发");
+		$("#wx_share_span").data("shareDesc", "保证学会哈！");
+		//$("#wx_share_span").data("shareLink", "/weixinshare.html");
+		//$("#wx_share_span").data("shareImg", "/banner.jpg");
+	});
+</script>
+
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script type="text/javascript" src="/wxShare.js"></script>
+</body>
+</html>
