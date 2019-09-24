@@ -54,7 +54,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [史上最详 Thymeleaf 使用教程](https://mp.weixin.qq.com/s/7FLO1ChRf18QU-w9ILzeAw)  **spring-boot-2.x-thymeleaf**   
 
-- [Springboot 2 整合JWT简单示例](https://github.com/zhuoqianmingyue/springbootexamples/wiki/Springboot2.0%E6%95%B4%E5%90%88JWT%E7%AE%80%E5%8D%95%E7%A4%BA%E4%BE%8B)  **spring-boot-2.x-jwt**   
+- [玩转 SpringBoot 2 之整合 JWT 上篇](https://mp.weixin.qq.com/s/WlwkTtn3xD6izXkkk5MjCQ)  **spring-boot-2.x-jwt**   
 
 - [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**    
 
