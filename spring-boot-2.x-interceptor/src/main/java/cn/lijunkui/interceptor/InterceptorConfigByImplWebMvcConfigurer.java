@@ -9,7 +9,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class InterceptorConfigByImplWebMvcConfigurer implements WebMvcConfigurer{
 	
-	
 	@Bean
     public LoginInterceptor loginInterceptor(){
         return new LoginInterceptor();
