@@ -58,6 +58,8 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 之整合 JWT 上篇](https://mp.weixin.qq.com/s/WlwkTtn3xD6izXkkk5MjCQ)  **spring-boot-2.x-jwt**   
 
+- [玩转 SpringBoot 2 之整合 JWT 下篇](https://mp.weixin.qq.com/s/kUiZ1PcBCr1shoOg_-hmvA)  **spring-boot-2.x-jwt**  
+
 - [SpringBoot 2 集成webSocket教程](https://blog.csdn.net/ljk126wy/article/details/82814086)  **spring-boot-2.x_websocket**    
 
 - [SpringBoot 2 集成邮件服务教程](https://blog.csdn.net/ljk126wy/article/details/83239398)  **spring-boot-2.x_mail**   
