@@ -11,13 +11,13 @@ import org.springframework.web.servlet.ModelAndView;
 import com.auth0.jwt.exceptions.AlgorithmMismatchException;
 import com.auth0.jwt.exceptions.SignatureVerificationException;
 import com.auth0.jwt.exceptions.TokenExpiredException;
-import com.google.gson.Gson;
 import cn.lijunkui.exception.customexception.JKException;
 import cn.lijunkui.exception.message.CodeEnum;
 import cn.lijunkui.exception.message.ReturnMessage;
 import cn.lijunkui.exception.message.ReturnMessageUtil;
 import cn.lijunkui.jwt.Payload;
 import cn.lijunkui.utils.JWTService;
+import cn.lijunkui.utils.JsonUtil;
 
 
 public class LoginInterceptor implements HandlerInterceptor{
@@ -49,16 +49,11 @@ public class LoginInterceptor implements HandlerInterceptor{
 		
 		try {
 			 Payload payload = jwtService.verifyToken(token);
-			 Date currentDate = new Date();
-			 Date expiresAt = payload.getExpiresAt();
-			 Date issuedAt = payload.getIssuedAt();
-			 Date afterDateByMinute = jwtService.getAfterDateByMinute(issuedAt, 30);
-			 if(afterDateByMinute.getTime() <= currentDate.getTime() && currentDate.getTime() <= expiresAt.getTime()) {
+			 if(isExpire(payload)) {
 			     String newToken = jwtService.createToken(payload.getClaims(), 1);
-			     ReturnMessage<Object> message = ReturnMessageUtil.sucess(newToken);
-			     message.setMessage("需要更换Token!");
-			     Gson gson = new Gson();
-				 String messageJson = gson.toJson(message);
+			     
+			     ReturnMessage<Object> message = buildReturnMessage(newToken);
+			     String messageJson = JsonUtil.toJson(message);
 			     response.getWriter().write(messageJson);
 				 return false;
 			 }
@@ -78,8 +73,31 @@ public class LoginInterceptor implements HandlerInterceptor{
 		
 		return true;
 	}
+	
+	private ReturnMessage<Object> buildReturnMessage(String newToken) {
+		ReturnMessage<Object> message = ReturnMessageUtil.sucess(newToken);
+		message.setMessage("需要更换Token!");
+		return message;
+	}
 
-    @Override
+	/**
+	 * 半个小时后更换一次 Token
+	 * @param payload
+	 * @return
+	 */
+	private boolean isExpire(Payload payload) {
+		Date currentDate = new Date();
+		Date expiresAt = payload.getExpiresAt();
+		Date issuedAt = payload.getIssuedAt();
+		Date afterDateByMinute = jwtService.getAfterDateByMinute(issuedAt, 30);
+		
+		if (afterDateByMinute.getTime() <= currentDate.getTime() && currentDate.getTime() <= expiresAt.getTime()) {
+			return true;
+		}
+		return false;
+	}
+
+	@Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
 
     }
