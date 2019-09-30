@@ -44,7 +44,7 @@ public class LoginInterceptor implements HandlerInterceptor{
 		
 		String tokenInServletContext = (String)request.getServletContext().getAttribute(token);
 		if(StringUtils.isEmpty(tokenInServletContext)) {
-			throw new JKException(CodeEnum.LOGINAGAIN);
+			throw new JKException(CodeEnum.ILLEGALTOKEN);
 		}
 		
 		try {
