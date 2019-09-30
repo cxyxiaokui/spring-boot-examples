@@ -24,60 +24,39 @@ public class JWTService {
 	private String issuer = "USERSERVICE";//发布者
 	private String subject = "userLoginToken";//主题
 	private String audience = "APP";//签名的观众 也可以理解谁接受签名的
-	private Map<String,String> claims;
-	public Map<String, String> getClaims() {
-		return claims;
-	}
-
-	public void setClaims(Map<String, String> claims) {
-		this.claims = claims;
-	}
-
-	public String getIssuer() {
-		return issuer;
-	}
-
-	public void setIssuer(String issuer) {
-		this.issuer = issuer;
-	}
-
-	public String getSubject() {
-		return subject;
-	}
-
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
-
-	public String getAudience() {
-		return audience;
-	}
-
-	public void setAudience(String audience) {
-		this.audience = audience;
-	}
-
-	public String getSecret() {
-		return secret;
-	}
-
-	public void setSecret(String secret) {
-		this.secret = secret;
-	}
+	private Map<String,String> claims;//自定义签名
+	
+	/**
+	 * 创建 hour小时后过期的Token 
+	 * @param claims
+	 * @param hour
+	 * @return
+	 */
 	public  String createToken(Map<String,String> claims,int hour) {
 		Payload createPayload = this.createPayload(1);
 		createPayload.setClaims(claims);
 		Algorithm hmac256 = Algorithm.HMAC256(this.getSecret());
 		return createToken(createPayload,hmac256);
 	}
+	/**
+	 * 根据负载和算法创建Token
+	 * @param payload
+	 * @param algorithm
+	 * @return
+	 */
 	public  String createToken(Payload payload,Algorithm algorithm) {
 		
 			Builder headBuilder = createHeaderBuilder(algorithm);
-			Builder publicClaimbuilder = createPublicClaimBuilder(headBuilder,payload);
-			Builder privateClaimbuilder = createPrivateClaimbuilder(publicClaimbuilder,payload);
+			Builder publicClaimbuilder = addPublicClaimBuilder(headBuilder,payload);
+			Builder privateClaimbuilder = addPrivateClaimbuilder(publicClaimbuilder,payload);
 			String token = privateClaimbuilder.sign(algorithm);
 		    return token;
 	}
+	/**
+	 * 创建自定小时后过期的负载
+	 * @param hour
+	 * @return
+	 */
 	public Payload createPayload(int hour) {
 		Payload payload = new Payload();
 		payload.setIssuer(this.getIssuer());
@@ -86,7 +65,11 @@ public class JWTService {
 		this.setIssuedAtAndExpiresAt(new Date(), hour, payload);
 		return payload;
 	}
-	
+	/**
+	 * 创建自定小时后过期的负载
+	 * @param hour
+	 * @return
+	 */
 	public Payload createPayload(String issuer, String subject, String audience, Date date,int hour) {
 		Payload payload = new Payload();
 		payload.setIssuer(issuer);
@@ -95,10 +78,13 @@ public class JWTService {
 		this.setIssuedAtAndExpiresAt(date, hour, payload);
 		return payload;
 	}
-	
-	
-	
-	private Builder createPrivateClaimbuilder(Builder builder, Payload payload) {
+	/**
+	 * 添加私有声明
+	 * @param builder
+	 * @param payload
+	 * @return
+	 */
+	private Builder addPrivateClaimbuilder(Builder builder, Payload payload) {
 		Map<String, String> claims = payload.getClaims();
 		if(!CollectionUtils.isEmpty(claims)) {
 			claims.forEach((k,v)->{
@@ -107,8 +93,13 @@ public class JWTService {
 		}
 		return builder;
 	}
-
-	private Builder createPublicClaimBuilder(Builder builder,Payload payload) {
+	/**
+	 * 添加公共声明
+	 * @param builder
+	 * @param payload
+	 * @return
+	 */
+	private Builder addPublicClaimBuilder(Builder builder,Payload payload) {
 		if(!StringUtils.isEmpty(payload.getIssuer())) {
 			builder.withIssuer(payload.getIssuer());
 		}
@@ -133,12 +124,20 @@ public class JWTService {
 		
 		return builder;
 	}
-
+	/**
+	 * 创建JWT 头部信息
+	 * @param algorithm
+	 * @return
+	 */
 	private Builder createHeaderBuilder(Algorithm algorithm) {
 		Builder builder = JWT.create().withHeader(buildJWTHeader(algorithm));
 		return builder;
 	}
-
+	/**
+	 * 校验Token
+	 * @param token
+	 * @return
+	 */
 	public Payload verifyToken(String token) {
 		DecodedJWT jwt = null;
 		Payload payload = null;
@@ -155,7 +154,12 @@ public class JWTService {
 		}
 		return payload;
 	}
-
+	/**
+	 * 获取JWT 私有声明
+	 * @param jwt
+	 * @param payload
+	 * @return
+	 */
 	private Payload getPrivateClaim(DecodedJWT jwt, Payload payload) {
 		Map<String, String> claims = new HashMap<String, String>();
 	    	jwt.getClaims().forEach((k,v)->{
@@ -165,7 +169,11 @@ public class JWTService {
 		payload.setClaims(claims);
 		return payload;
 	}
-
+	/**
+	 * 获取JWT 公共声明
+	 * @param jwt
+	 * @return
+	 */
 	private Payload getPublicClaim(DecodedJWT jwt) {
 		Payload payload = new Payload();
 		payload.setIssuer(jwt.getIssuer());
@@ -175,19 +183,34 @@ public class JWTService {
 		payload.setExpiresAt(jwt.getExpiresAt());
 		return payload;
 	}
-
+	/**
+	 * 获取 DecodedJWT
+	 * @param token
+	 * @return
+	 */
 	private DecodedJWT getDecodedJWT(String token) {
 		JWTVerifier verifier = JWT.require(Algorithm.HMAC256(this.getSecret())).build(); 
 		DecodedJWT jwt = verifier.verify(token);
 		return jwt;
 	}
-	
+	/**
+	 * 构建JWT头部Map信息
+	 * @param algorithm
+	 * @return
+	 */
 	private Map<String, Object> buildJWTHeader(Algorithm algorithm) {
 		  Map<String, Object> map = new HashMap<String, Object>();
 	      map.put("alg", algorithm.getName());
 	      map.put("typ", "JWT");
 		return map;
 	}
+	
+	/**
+	 * 根据发布时间设置过期时间
+	 * @param issuedAt
+	 * @param hour
+	 * @param payload
+	 */
 	public void setIssuedAtAndExpiresAt(Date issuedAt,Integer hour,Payload payload) {
 		payload.setIssuedAt(issuedAt);
 		payload.setExpiresAt(getAfterDateByHour(issuedAt,hour));
@@ -255,6 +278,46 @@ public class JWTService {
 			cal.add(Calendar.SECOND, second);
 		}
 		return cal.getTime();
+	}
+	
+	public void setClaims(Map<String, String> claims) {
+		this.claims = claims;
+	}
+	
+	public Map<String, String> getClaims() {
+		return claims;
+	}
+
+	public String getIssuer() {
+		return issuer;
+	}
+
+	public void setIssuer(String issuer) {
+		this.issuer = issuer;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public String getAudience() {
+		return audience;
+	}
+
+	public void setAudience(String audience) {
+		this.audience = audience;
+	}
+
+	public String getSecret() {
+		return secret;
+	}
+
+	public void setSecret(String secret) {
+		this.secret = secret;
 	}
 	
 }
