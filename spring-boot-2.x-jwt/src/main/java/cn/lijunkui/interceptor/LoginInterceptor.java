@@ -49,7 +49,8 @@ public class LoginInterceptor implements HandlerInterceptor{
 		
 		try {
 			 Payload payload = jwtService.verifyToken(token);
-			 if(isExpire(payload)) {
+			 
+			 if(isCloseToExpire(payload)) {
 			     String newToken = jwtService.createToken(payload.getClaims(), 1);
 			     
 			     ReturnMessage<Object> message = buildReturnMessage(newToken);
@@ -85,7 +86,7 @@ public class LoginInterceptor implements HandlerInterceptor{
 	 * @param payload
 	 * @return
 	 */
-	private boolean isExpire(Payload payload) {
+	private boolean isCloseToExpire(Payload payload) {
 		Date currentDate = new Date();
 		Date expiresAt = payload.getExpiresAt();
 		Date issuedAt = payload.getIssuedAt();
