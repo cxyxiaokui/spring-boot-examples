@@ -1,6 +1,5 @@
 package cn.lijunkui.interceptor;
 
-import java.util.Date;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
@@ -13,11 +12,7 @@ import com.auth0.jwt.exceptions.SignatureVerificationException;
 import com.auth0.jwt.exceptions.TokenExpiredException;
 import cn.lijunkui.exception.customexception.JKException;
 import cn.lijunkui.exception.message.CodeEnum;
-import cn.lijunkui.exception.message.ReturnMessage;
-import cn.lijunkui.exception.message.ReturnMessageUtil;
-import cn.lijunkui.jwt.Payload;
 import cn.lijunkui.utils.JWTService;
-import cn.lijunkui.utils.JsonUtil;
 
 
 public class LoginInterceptor implements HandlerInterceptor{
@@ -48,16 +43,7 @@ public class LoginInterceptor implements HandlerInterceptor{
 		}
 		
 		try {
-			 Payload payload = jwtService.verifyToken(token);
-			 
-			 if(isCloseToExpire(payload)) {
-			     String newToken = jwtService.createToken(payload.getClaims(), 1);
-			     
-			     ReturnMessage<Object> message = buildReturnMessage(newToken);
-			     String messageJson = JsonUtil.toJson(message);
-			     response.getWriter().write(messageJson);
-				 return false;
-			 }
+			 jwtService.verifyToken(token);
 		} catch (AlgorithmMismatchException  e) {
 			log.error("Token Checkout processing AlgorithmMismatchException 异常！"+e.getLocalizedMessage());
 			throw new JKException(CodeEnum.ILLEGALTOKEN);
@@ -73,29 +59,6 @@ public class LoginInterceptor implements HandlerInterceptor{
 		}
 		
 		return true;
-	}
-	
-	private ReturnMessage<Object> buildReturnMessage(String newToken) {
-		ReturnMessage<Object> message = ReturnMessageUtil.sucess(newToken);
-		message.setMessage("需要更换Token!");
-		return message;
-	}
-
-	/**
-	 * 半个小时后更换一次 Token
-	 * @param payload
-	 * @return
-	 */
-	private boolean isCloseToExpire(Payload payload) {
-		Date currentDate = new Date();
-		Date expiresAt = payload.getExpiresAt();
-		Date issuedAt = payload.getIssuedAt();
-		Date afterDateByMinute = jwtService.getAfterDateByMinute(issuedAt, 30);
-		
-		if (afterDateByMinute.getTime() <= currentDate.getTime() && currentDate.getTime() <= expiresAt.getTime()) {
-			return true;
-		}
-		return false;
 	}
 
 	@Override
