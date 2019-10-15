@@ -42,15 +42,15 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 快速整合 Filter](https://mp.weixin.qq.com/s/WtZ63iDwXh2L5qxhGyWESg)  **spring-boot-2.x_filter** 
 
-- [玩转 SpringBoot 2 快速整合 Filter 注解版](https://blog.csdn.net/ljk126wy/article/details/102032723)  **spring-boot-2.x-annotation-filter** 
+- [玩转 SpringBoot 2 快速整合 Filter 注解版](https://mp.weixin.qq.com/s/MiuKREMyboVzcBDAYr9XNg)  **spring-boot-2.x-annotation-filter** 
 
 - [玩转 SpringBoot 2快速整合拦截器](https://mp.weixin.qq.com/s/IkNHvjRV7lMlShFYasC9yw)  **spring-boot-2.x-interceptor** 
 
 - [玩转 SpringBoot 2 快速整合 | Hibernate Validator数据校验](https://mp.weixin.qq.com/s/MUzj_Yg7X6JqGsDHE2MaXQ)  **spring-boot-2.x-restful-api**
 
-- [玩转 SpringBoot 2 快速整合 Servlet](https://blog.csdn.net/ljk126wy/article/details/102028710)  **spring-boot-2.x-servlet** 
+- [玩转 SpringBoot 2 快速整合 Servlet](https://mp.weixin.qq.com/s/3Pe4hiCbrmvBDG3kFcnX7A)  **spring-boot-2.x-servlet** 
 
-- [玩转 SpringBoot 2 快速整合 Listener](https://blog.csdn.net/ljk126wy/article/details/102031479)  **spring-boot-2.x-listener** 
+- [玩转 SpringBoot 2 快速整合 Listener](https://mp.weixin.qq.com/s/8NSHNpyN1PfOWoZUFmTy6g)  **spring-boot-2.x-listener** 
 
 - [玩转 SpringBoot 2 快速整合 | 统一异常处理](https://mp.weixin.qq.com/s/3cfb3djYRo15KlavkV7tpw)  **spring-boot-2.x-unified_anomaly**  
 
