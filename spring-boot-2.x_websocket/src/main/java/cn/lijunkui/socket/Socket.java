@@ -25,7 +25,7 @@ public class Socket {
         webSocketSet.add(this);
         System.out.println("websocket 有新的链接"+webSocketSet.size());
     }
-    /*websocket 链接关闭调用的方法*/
+    /*WebSocket 连接关闭调用的方法*/
     @OnClose
     public void onClose() {
         webSocketSet.remove(this);
@@ -37,7 +37,7 @@ public class Socket {
             socket.session.getBasicRemote().sendText("自己嘎给自己嘎发的消息："+message);
         }
     }
-    /*websocket 发生错误时进行调用*/
+    /* WebSocket 发生错误时进行调用*/
     @OnError
     public void onError(Session session,Throwable error){
         error.printStackTrace();
