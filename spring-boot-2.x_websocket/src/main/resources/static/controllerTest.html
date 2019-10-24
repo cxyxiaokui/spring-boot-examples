@@ -5,11 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<h2>通过controller 进行发送消息</h2>
-<input type="text" id="sendMessage"><button onclick="controllerSend()">发送</button>
+<h2>直接向服务端发送消息</h2>
+<input type="text" id="sendMessage"><button onclick="serverSendMsg()">发送</button>
 </body>
 <script language="JavaScript">
-    function controllerSend(){
+    function serverSendMsg(){
         var sendIput = document.getElementById("sendMessage");
         var sendMessage = sendIput.value;
         if(sendMessage.trim() == ""){
