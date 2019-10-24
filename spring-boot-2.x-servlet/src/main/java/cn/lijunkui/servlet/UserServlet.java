@@ -29,14 +29,6 @@ public class UserServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 		
-		String id = req.getParameter("id");
-		if(!StringUtils.isEmpty(id)){
-			User user = new User("ljk1",18);
-			String userJson = JsonUtil.toJson(user);
-			resp.getWriter().write(userJson);
-			return ;
-		}
-		
 		User user1 = new User("ljk1",18);
 		User user2 = new User("ljk1",18);
 		List<User> userList = new ArrayList<User>();
@@ -50,7 +42,7 @@ public class UserServlet extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		this.doPost(req, resp);
+		this.doGet(req, resp);
 	}
 	@Override
 	public void destroy() {

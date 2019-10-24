@@ -1,4 +1,4 @@
-package cn.lijunkui.listener;
+package cn.lijunkui.filter;
 
 import java.io.IOException;
 
@@ -14,9 +14,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @WebFilter(urlPatterns="/*")
-public class AnnotationFilter implements Filter{
+public class URLFilter implements Filter{
 	
-	private Logger log = LoggerFactory.getLogger(AnnotationFilter.class);
+	private Logger log = LoggerFactory.getLogger(URLFilter.class);
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
