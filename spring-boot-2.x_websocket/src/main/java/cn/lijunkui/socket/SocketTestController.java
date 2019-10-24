@@ -16,6 +16,6 @@ public class SocketTestController {
     private Socket socket;
     @GetMapping("/{message}")
     public void sendMessage(@PathVariable("message") String message) throws IOException {
-        socket.sendMessage("这个是controller 发送的消息："+message);
+        socket.sendMessage("直接向服务端发送消息："+message);
     }
 }
