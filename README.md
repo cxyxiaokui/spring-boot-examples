@@ -80,14 +80,13 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 通过自定义配置类整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE%E7%B1%BB%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **spring-boot-2.x-mybaties**  
 
-- [SpringBoot 2 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **lesson14_mybaties**
+- [SpringBoot 2 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **spring-boot-2.x-mybaties**
 
 - [SpringBoot 2 使用异步调用@Async](https://zhuoqianmingyue.blog.csdn.net/article/details/87989647)
 
 - [SpringBoot 2 使用SpringBoot Admin 监控](https://zhuoqianmingyue.blog.csdn.net/article/details/82785269) 
 
-- **spring-boot-2.x-custom-start-dependency** 博客教程整理中
-
+- [SpringBoot 2.x 之自定义HttpClient Starter依赖](https://blog.csdn.net/ljk126wy/article/details/87906351) **spring-boot-2.x-custom-start-dependency**
 - 未完待续...
 ## SpringBoot2.x 高级应用篇
 - [SpringBoot 2 使用Spring WebFlux之HelloWord教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%BD%BF%E7%94%A8Spring-WebFlux%E4%B9%8BHelloWord%E6%95%99%E7%A8%8B)  **lesson16_spring_webflux**  
