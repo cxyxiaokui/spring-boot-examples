@@ -30,7 +30,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 快速搭建 | IntellJ IDEA篇](https://mp.weixin.qq.com/s/Z5vebfI7dPP75-1bE_JVzA)  **spring-boot-2.x-start**  
 
-- [玩转 SpringBoot 2 快速搭建 | SpringToolSuite 篇](https://mp.weixin.qq.com/s/OpBxjMgrOkOvccn718YStA)  **spring-boot-2.x-start**   
+- [玩转 SpringBoot 2 快速搭建 | SpringToolSuite 篇](https://mp.weixin.qq.com/s/OpBxjMgrOkOvccn718YStA)  **spring-boot-2.x-start** 
+
+- [玩转 Springboot 2 | 不使用 parent 方式创建SpringBoot项目篇](https://zhuoqianmingyue.blog.csdn.net/article/details/88093042)
 
 - [玩转SpringBoot 2 之项目启动篇](https://mp.weixin.qq.com/s/gVkdcWP8RpJaLkOQF23JzQ)  **spring-boot-2.x-start**  
 
