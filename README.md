@@ -70,7 +70,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 集成webSocket教程](https://mp.weixin.qq.com/s/ZzgUerD1KTkQ-MCpPy2hGA)  **spring-boot-2.x_websocket**    
 
-- [SpringBoot 2 集成邮件服务教程](https://blog.csdn.net/ljk126wy/article/details/83239398)  **spring-boot-2.x_mail**   
+- [SpringBoot 2 集成邮件服务教程](https://zhuoqianmingyue.blog.csdn.net/article/details/102822405)  **spring-boot-2.x_mail**   
 
 - [SpringBoot 2 使用定时任务教程](https://blog.csdn.net/ljk126wy/article/details/83079070)  **spring-boot-2.x_task**   
 
