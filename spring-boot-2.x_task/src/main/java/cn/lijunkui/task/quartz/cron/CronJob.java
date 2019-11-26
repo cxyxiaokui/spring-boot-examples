@@ -29,7 +29,6 @@ public class CronJob implements Job{
     @Override  
     public void execute(JobExecutionContext context) throws JobExecutionException {
     	log.info("quartz cron The time is now {}", dateFormat.format(new Date()));
-    	System.out.println("CronJob"+serviceCode);
     	liveReminderService.sendmessage();
     } 
 }

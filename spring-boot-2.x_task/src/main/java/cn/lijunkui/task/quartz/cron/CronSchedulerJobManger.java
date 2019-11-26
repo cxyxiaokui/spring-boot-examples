@@ -18,11 +18,11 @@ public class CronSchedulerJobManger {
     
     public void scheduleJobs() throws SchedulerException {
         Scheduler scheduler = schedulerFactoryBean.getScheduler();
-        scheduleJob1(scheduler);
-        //scheduleJob2(scheduler);   
+        scheduleJob(scheduler);
+       // scheduleJob2(scheduler);   
     }  
     
-    private void scheduleJob1(Scheduler scheduler) throws SchedulerException{
+    private void scheduleJob(Scheduler scheduler) throws SchedulerException{
         JobDetail jobDetail = JobBuilder.newJob(CronJob.class) .withIdentity("job1", "group1")
         		.usingJobData("serviceCode","Live lesson reminder1").build();
         CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule("0/5 * * * * ?");
