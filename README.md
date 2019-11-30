@@ -74,7 +74,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 使用定时任务教程](https://zhuoqianmingyue.blog.csdn.net/article/details/103111265)  **spring-boot-2.x_task**   
 
-- [SpringBoot 2 使用spirngDataJpa教程](https://blog.csdn.net/ljk126wy/article/details/82819948)  **spring-boot-2.x-spring-data-jpa**  
+- [SpringBoot 2 使用spirngDataJpa教程](http://zhuoqianmingyue.cn/archives/spring_date_jpa)  **spring-boot-2.x-spring-data-jpa**  
 
 - [SpringBoot 2 使用mybatis教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E6%95%B4%E5%90%88-MyBatis)  **spring-boot-2.x-mybaties**  
 
