@@ -68,9 +68,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 之整合 JWT 下篇](https://mp.weixin.qq.com/s/kUiZ1PcBCr1shoOg_-hmvA)  **spring-boot-2.x-jwt**  
 
-- [SpringBoot 2 集成webSocket教程](https://mp.weixin.qq.com/s/ZzgUerD1KTkQ-MCpPy2hGA)  **spring-boot-2.x_websocket**    
+- [玩转SpringBoot 2之整合WebSocket篇](https://mp.weixin.qq.com/s/ZzgUerD1KTkQ-MCpPy2hGA)  **spring-boot-2.x_websocket**    
 
-- [SpringBoot 2 集成邮件服务教程](https://mp.weixin.qq.com/s/BxExlZztSbnuPi0Tem-cPQ)  **spring-boot-2.x_mail**   
+- [玩转 SpringBoot 2 之发送邮件篇](https://mp.weixin.qq.com/s/BxExlZztSbnuPi0Tem-cPQ)  **spring-boot-2.x_mail**   
 
 - [玩转 SpringBoot 2 之整合定时任务篇](https://zhuoqianmingyue.blog.csdn.net/article/details/103111265)  **spring-boot-2.x_task**   
 
