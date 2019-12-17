@@ -72,9 +72,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 集成邮件服务教程](https://mp.weixin.qq.com/s/BxExlZztSbnuPi0Tem-cPQ)  **spring-boot-2.x_mail**   
 
-- [SpringBoot 2 使用定时任务教程](https://zhuoqianmingyue.blog.csdn.net/article/details/103111265)  **spring-boot-2.x_task**   
+- [玩转 SpringBoot 2 之整合定时任务篇](https://zhuoqianmingyue.blog.csdn.net/article/details/103111265)  **spring-boot-2.x_task**   
 
-- [SpringBoot 2 使用spirngDataJpa教程](http://zhuoqianmingyue.cn/archives/spring_date_jpa)  **spring-boot-2.x-spring-data-jpa**  
+- [玩转 SpringBoot 2.x 之使用 SpringDataJpa 篇](http://zhuoqianmingyue.cn/archives/spring_date_jpa)  **spring-boot-2.x-spring-data-jpa**  
 
 - [玩转 SpringBoot 2.x 整合 Mybatis](https://zhuoqianmingyue.blog.csdn.net/article/details/99957945)  **spring-boot-2.x-mybaties**  
 
