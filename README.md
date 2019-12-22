@@ -78,9 +78,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2.x 整合 Mybatis](https://mp.weixin.qq.com/s/98Lcc5mSD4xIl3fm69mIpQ)  **spring-boot-2.x-mybaties**  
 
-- [SpringBoot 2 通过自定义配置类整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE%E7%B1%BB%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **spring-boot-2.x-mybaties**  
-
-- [SpringBoot 2 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **spring-boot-2.x-mybaties**
+- [玩转SpringBoot2.x 整合Druid(Mybatis版)](https://mp.weixin.qq.com/s/2zSRQT2LWOCAI1zADFcHwQ)  **spring-boot-2.x-mybaties**  
 
 - [SpringBoot 2 使用异步调用@Async](https://zhuoqianmingyue.blog.csdn.net/article/details/87989647)
 
