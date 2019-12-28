@@ -33,6 +33,8 @@
 		<module>spring-boot-2.x-spring-session-2</module>
 		<module>spring-boot-2.x-rabbit-mq</module>
 		<module>spring-boot-2.x-rest-template</module>
+		<module>springboot-2.x-httpclient-custom-starter</module>
+		<module>spring-boot-start-httpclient</module>
 	</modules>
 
 	<build>
