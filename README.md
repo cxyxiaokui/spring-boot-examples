@@ -80,11 +80,13 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转SpringBoot2.x 整合Druid(Mybatis版)](https://mp.weixin.qq.com/s/2zSRQT2LWOCAI1zADFcHwQ)  **spring-boot-2.x-mybaties**  
 
+- [玩转 SpringBoot 2.x 之自定义Starter依赖](https://mp.weixin.qq.com/s/C6nP__BZ6NZkGpEW3h4F1w) **spring-boot-start-httpclient** **springboot-2.x-httpclient-custom-starter** 
+
 - [SpringBoot 2 使用异步调用@Async](https://zhuoqianmingyue.blog.csdn.net/article/details/87989647)
 
 - [SpringBoot 2 使用SpringBoot Admin 监控](https://zhuoqianmingyue.blog.csdn.net/article/details/82785269) 
 
-- [SpringBoot 2.x 之自定义HttpClient Starter依赖](https://blog.csdn.net/ljk126wy/article/details/87906351) **spring-boot-start-httpclient** **springboot-2.x-httpclient-custom-starter** 
+
 - 未完待续...
 ## SpringBoot2.x 高级应用篇
 - [SpringBoot 2 使用Spring WebFlux之HelloWord教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0%E4%BD%BF%E7%94%A8Spring-WebFlux%E4%B9%8BHelloWord%E6%95%99%E7%A8%8B)  **lesson16_spring_webflux**  
