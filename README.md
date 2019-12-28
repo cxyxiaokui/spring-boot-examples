@@ -68,19 +68,17 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 之整合 JWT 下篇](https://mp.weixin.qq.com/s/kUiZ1PcBCr1shoOg_-hmvA)  **spring-boot-2.x-jwt**  
 
-- [SpringBoot 2 集成webSocket教程](https://mp.weixin.qq.com/s/ZzgUerD1KTkQ-MCpPy2hGA)  **spring-boot-2.x_websocket**    
+- [玩转SpringBoot 2之整合WebSocket篇](https://mp.weixin.qq.com/s/ZzgUerD1KTkQ-MCpPy2hGA)  **spring-boot-2.x_websocket**    
 
-- [SpringBoot 2 集成邮件服务教程](https://mp.weixin.qq.com/s/BxExlZztSbnuPi0Tem-cPQ)  **spring-boot-2.x_mail**   
+- [玩转 SpringBoot 2 之发送邮件篇](https://mp.weixin.qq.com/s/BxExlZztSbnuPi0Tem-cPQ)  **spring-boot-2.x_mail**   
 
-- [SpringBoot 2 使用定时任务教程](https://zhuoqianmingyue.blog.csdn.net/article/details/103111265)  **spring-boot-2.x_task**   
+- [玩转 SpringBoot 2 之整合定时任务篇](https://zhuoqianmingyue.blog.csdn.net/article/details/103111265)  **spring-boot-2.x_task**   
 
-- [SpringBoot 2 使用spirngDataJpa教程](http://zhuoqianmingyue.cn/archives/spring_date_jpa)  **spring-boot-2.x-spring-data-jpa**  
+- [玩转 SpringBoot 2.x 之使用 SpringDataJpa 篇](http://zhuoqianmingyue.cn/archives/spring_date_jpa)  **spring-boot-2.x-spring-data-jpa**  
 
-- [SpringBoot 2 使用mybatis教程](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E6%95%B4%E5%90%88-MyBatis)  **spring-boot-2.x-mybaties**  
+- [玩转 SpringBoot 2.x 整合 Mybatis](https://mp.weixin.qq.com/s/98Lcc5mSD4xIl3fm69mIpQ)  **spring-boot-2.x-mybaties**  
 
-- [SpringBoot 2 通过自定义配置类整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE%E7%B1%BB%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **spring-boot-2.x-mybaties**  
-
-- [SpringBoot 2 通过 druid spring boot starter 整合 Druid(mybatis版)](https://github.com/zhuoqianmingyue/springbootexamples/wiki/SpringBoot2.0-%E9%80%9A%E8%BF%87-druid-spring-boot-starter-%E6%95%B4%E5%90%88-Druid(mybatis%E7%89%88))  **spring-boot-2.x-mybaties**
+- [玩转SpringBoot2.x 整合Druid(Mybatis版)](https://mp.weixin.qq.com/s/2zSRQT2LWOCAI1zADFcHwQ)  **spring-boot-2.x-mybaties**  
 
 - [SpringBoot 2 使用异步调用@Async](https://zhuoqianmingyue.blog.csdn.net/article/details/87989647)
 
