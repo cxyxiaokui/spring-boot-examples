@@ -74,7 +74,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [玩转 SpringBoot 2 之整合定时任务篇](https://mp.weixin.qq.com/s/KYxh1g8LMY0TVdof08BlmA)  **spring-boot-2.x_task**   
 
-- [玩转 SpringBoot 2.x 之使用 SpringDataJpa 篇](http://zhuoqianmingyue.cn/archives/spring_date_jpa)  **spring-boot-2.x-spring-data-jpa**  
+- [玩转 SpringBoot 2.x 之使用 SpringDataJpa 篇](https://mp.weixin.qq.com/s/MVSY8cryvXIpCV1NTqWuFw)  **spring-boot-2.x-spring-data-jpa**  
 
 - [玩转 SpringBoot 2.x 整合 Mybatis](https://mp.weixin.qq.com/s/98Lcc5mSD4xIl3fm69mIpQ)  **spring-boot-2.x-mybaties**  
 
