@@ -105,7 +105,7 @@ SpringBoot2.x 个人学习示例程序
 
 - [JS-SDK自定义微信分享（SpringBoot版）](https://zhuoqianmingyue.blog.csdn.net/article/details/100714362)  **spring-boot-2.x-weixin** 
 
-- [通过Docker 启动SpringBoot 项目](https://blog.csdn.net/ljk126wy/article/details/104275624)  **spring-boot-2.x-weixin** 
+- [通过Docker 启动SpringBoot 项目](https://blog.csdn.net/ljk126wy/article/details/104275624)  
 
 
 
