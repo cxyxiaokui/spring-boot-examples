@@ -35,6 +35,15 @@
 		<module>spring-boot-2.x-rest-template</module>
 		<module>springboot-2.x-httpclient-custom-starter</module>
 		<module>spring-boot-start-httpclient</module>
+		<module>spring-boot-2.x-annotation-filter</module>
+		<module>spring-boot-2.x-interceptor</module>
+		<module>spring-boot-2.x-sentinel</module>
+		<module>spring-boot-2.x-servlet</module>
+		<module>spring-boot-2.x-listener</module>
+		<module>spring-boot-2.x-weixin</module>
+		<module>spring-boot-2.x-wxpay</module>
+		<module>spring-boot-2.x-swagger-starter</module>
+		<module>spring-boot-2.x-redis-jedis</module>
 	</modules>
 
 	<build>
