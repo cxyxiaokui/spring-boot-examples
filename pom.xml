@@ -44,6 +44,7 @@
 		<module>spring-boot-2.x-wxpay</module>
 		<module>spring-boot-2.x-swagger-starter</module>
 		<module>spring-boot-2.x-redis-jedis</module>
+		<module>spring-boot-2.x-redis-redistemplate</module>
 	</modules>
 
 	<build>
