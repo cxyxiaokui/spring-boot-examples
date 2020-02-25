@@ -22,6 +22,7 @@ public class RedisTemplateTest {
     @Test
     public void set(){
         redisTemplate.opsForValue().set("a","1",30, TimeUnit.MINUTES);
+        log.info("设置 key 为 a 的值是：{}",1);
     }
     @Test
     public void get(){
@@ -31,7 +32,7 @@ public class RedisTemplateTest {
     @Test
     public void del(){
         redisTemplate.delete("a");
+        log.info("删除key 为 a 的值是：{}",1);
     }
-
 
 }
