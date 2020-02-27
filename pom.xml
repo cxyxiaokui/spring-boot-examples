@@ -45,6 +45,7 @@
 		<module>spring-boot-2.x-swagger-starter</module>
 		<module>spring-boot-2.x-redis-jedis</module>
 		<module>spring-boot-2.x-redis-redistemplate</module>
+		<module>spring-boot-2.x-redis-jedis-objectcache</module>
 	</modules>
 
 	<build>
