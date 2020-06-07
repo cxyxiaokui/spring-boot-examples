@@ -111,6 +111,7 @@ SpringBoot2.x 个人学习示例程序
 
 - 未完待续...
 ## SpringBoot2.x 原理应用篇
+- [不会部署并调试SpringBoot源码？一看必会IDEA操作](https://mp.weixin.qq.com/s/XY3p1kMrZ0UqdSqjXN4ytA)
 
 - [SpringBoot 2之自定义 Banner 日志输出篇](https://zhuoqianmingyue.blog.csdn.net/article/details/83109152)
 
