@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * https://cloud.tencent.com/developer/article/1480366
+ *
  * 多数据库源配置类
  * @Author jkli
  * @Date 2020/6/14 2:57 下午
