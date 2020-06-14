@@ -1,0 +1,71 @@
+server:
+  port: 8080
+
+#mybatis:
+  #config-location: classpath:mybatis-config.xml
+  #mapper-locations: classpath*:mapper/**/*Mapper.xml
+
+
+spring:
+  datasource:
+    #初始化时建立物理连接的个数
+    #type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      product:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/product?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        username: root
+        password: 123456
+        initial-size: 15
+        #最小连接池数量
+        min-idle: 10
+        #最大连接池数量
+        max-active: 50
+        #获取连接时最大等待时间
+        max-wait: 60000
+        # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+        timeBetweenEvictionRunsMillis: 60000
+        # 配置一个连接在池中最小生存的时间，单位是毫秒
+        minEvictableIdleTimeMillis: 300000
+        # 配置一个连接在池中最大生存的时间，单位是毫秒
+        maxEvictableIdleTimeMillis: 9000000
+        # 配置检测连接是否有效
+        validationQuery: SELECT 1 FROM DUAL
+        #配置监控页面访问登录名称
+        stat-view-servlet.login-username: admin
+        #配置监控页面访问密码
+        stat-view-servlet.login-password: admin
+        #是否开启慢sql查询监控
+        filter.stat.log-slow-sql: true
+        #慢SQL执行时间
+        filter.stat.slow-sql-millis: 1000
+      hotel:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/hotel?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+        username: root
+        password: 123456
+        initial-size: 15
+        #最小连接池数量
+        min-idle: 10
+        #最大连接池数量
+        max-active: 50
+        #获取连接时最大等待时间
+        max-wait: 60000
+        # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+        timeBetweenEvictionRunsMillis: 60000
+        # 配置一个连接在池中最小生存的时间，单位是毫秒
+        minEvictableIdleTimeMillis: 300000
+        # 配置一个连接在池中最大生存的时间，单位是毫秒
+        maxEvictableIdleTimeMillis: 9000000
+        # 配置检测连接是否有效
+        validationQuery: SELECT 1 FROM DUAL
+        #配置监控页面访问登录名称
+        stat-view-servlet.login-username: admin
+        #配置监控页面访问密码
+        stat-view-servlet.login-password: admin
+        #是否开启慢sql查询监控
+        filter.stat.log-slow-sql: true
+        #慢SQL执行时间
+        filter.stat.slow-sql-millis: 1000
+
+
