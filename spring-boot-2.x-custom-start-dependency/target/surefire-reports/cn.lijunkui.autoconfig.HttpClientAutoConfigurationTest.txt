@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: cn.lijunkui.autoconfig.HttpClientAutoConfigurationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.908 s <<< FAILURE! - in cn.lijunkui.autoconfig.HttpClientAutoConfigurationTest
-test(cn.lijunkui.autoconfig.HttpClientAutoConfigurationTest)  Time elapsed: 0.003 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: java.lang.IllegalStateException: Unable to read meta-data for class cn.lijunkui2.autoconfig.HttpClientAutoConfigurationOut
-Caused by: java.io.FileNotFoundException: class path resource [cn/lijunkui2/autoconfig/HttpClientAutoConfigurationOut.class] cannot be opened because it does not exist
-
