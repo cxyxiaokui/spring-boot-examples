@@ -1,7 +1,7 @@
 package cn.lijunkui.config;
 
 
-import cn.lijunkui.enums.DataSourceTypeEnum;
+import cn.lijunkui.enums.DataSourceKeyEnum;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -29,14 +29,14 @@ public class DataSourceAop {
     public void switchDataSource(JoinPoint joinPoint) throws NoSuchMethodException {
         log.info("开始切换数据源");
 
-        //获取HotelMapper 获取 ProductMapper 类上声明的TargetDataSource的数据源注解的值
+        //获取HotelMapper or ProductMapper 类上声明的TargetDataSource的数据源注解的值
         MethodSignature methodSignature = (MethodSignature)joinPoint.getSignature();
         Class<?> declaringClass  = methodSignature.getMethod().getDeclaringClass();
         TargetDataSource annotation = declaringClass.getAnnotation(TargetDataSource.class);
-        DataSourceTypeEnum value = annotation.value();
+        DataSourceKeyEnum value = annotation.value();
         log.info("数据源为：{}",value);
 
         //根据TargetDataSource的value设置要切换的数据源
-        DynamicDataSource.setDataBaseType(value);
+        DynamicDataSourceRoutingKeyState.setDataSourceKey(value);
     }
 }

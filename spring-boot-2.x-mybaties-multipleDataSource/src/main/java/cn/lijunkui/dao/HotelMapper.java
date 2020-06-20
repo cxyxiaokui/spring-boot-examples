@@ -3,7 +3,7 @@ package cn.lijunkui.dao;
 import java.util.List;
 
 import cn.lijunkui.config.TargetDataSource;
-import cn.lijunkui.enums.DataSourceTypeEnum;
+import cn.lijunkui.enums.DataSourceKeyEnum;
 import org.apache.ibatis.annotations.Mapper;
 import cn.lijunkui.domain.Hotel;
 /**
@@ -11,7 +11,7 @@ import cn.lijunkui.domain.Hotel;
  * @Date 2020/6/14 2:57 下午
  **/
 @Mapper
-@TargetDataSource(value = DataSourceTypeEnum.HOTEL )
+@TargetDataSource(value = DataSourceKeyEnum.HOTEL )
 public interface HotelMapper {
 
 

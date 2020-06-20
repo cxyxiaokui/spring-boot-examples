@@ -1,6 +1,6 @@
 package cn.lijunkui.config;
 
-import cn.lijunkui.enums.DataSourceTypeEnum;
+import cn.lijunkui.enums.DataSourceKeyEnum;
 
 import java.lang.annotation.*;
 
@@ -12,5 +12,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface TargetDataSource {
-    DataSourceTypeEnum value() default DataSourceTypeEnum.HOTEL;
+    DataSourceKeyEnum value() default DataSourceKeyEnum.PRODUCT;
 }

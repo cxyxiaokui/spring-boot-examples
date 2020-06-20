@@ -1,6 +1,6 @@
 package cn.lijunkui.config;
 
-import cn.lijunkui.enums.DataSourceTypeEnum;
+import cn.lijunkui.enums.DataSourceKeyEnum;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -54,8 +54,8 @@ public class DataSourceConfig {
     public DataSource dynamicDataSource() {
 
         Map<Object, Object> targetDataSource = new HashMap<>();
-        targetDataSource.put(DataSourceTypeEnum.PRODUCT, dataSourceForProduct());
-        targetDataSource.put(DataSourceTypeEnum.HOTEL, dataSourceForHotel());
+        targetDataSource.put(DataSourceKeyEnum.PRODUCT, dataSourceForProduct());
+        targetDataSource.put(DataSourceKeyEnum.HOTEL, dataSourceForHotel());
         //设置默认的数据源和以及多数据源的Map信息
         DynamicDataSourceRouting dataSource = new DynamicDataSourceRouting();
         dataSource.setTargetDataSources(targetDataSource);

@@ -1,6 +1,6 @@
 package cn.lijunkui.config;
 
-import cn.lijunkui.enums.DataSourceTypeEnum;
+import cn.lijunkui.enums.DataSourceKeyEnum;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
 /**
@@ -10,7 +10,7 @@ import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 public class DynamicDataSourceRouting extends AbstractRoutingDataSource {
     @Override
     protected Object determineCurrentLookupKey() {
-        DataSourceTypeEnum dataBaseType = DynamicDataSource.getDataBaseType();
-        return dataBaseType;
+        DataSourceKeyEnum dataSourceKey = DynamicDataSourceRoutingKeyState.getDataSourceKey();
+        return dataSourceKey;
     }
 }

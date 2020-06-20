@@ -2,7 +2,7 @@ package cn.lijunkui.dao;
 
 import cn.lijunkui.config.TargetDataSource;
 import cn.lijunkui.domain.Product;
-import cn.lijunkui.enums.DataSourceTypeEnum;
+import cn.lijunkui.enums.DataSourceKeyEnum;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
  * @Date 2020/6/14 2:57 下午
  **/
 @Mapper
-@TargetDataSource(value = DataSourceTypeEnum.PRODUCT )
+@TargetDataSource(value = DataSourceKeyEnum.PRODUCT )
 public interface ProductMapper {
 
     /**
