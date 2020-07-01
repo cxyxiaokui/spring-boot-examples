@@ -86,6 +86,9 @@ SpringBoot2.x 个人学习示例程序
 
 - [SpringBoot 2 使用SpringBoot Admin 监控](https://zhuoqianmingyue.blog.csdn.net/article/details/82785269) 
 
+- [SpringBoot 2 多数据源操作 MyBatis + Durid版](https://mp.weixin.qq.com/s/KbeMwk65nWt-qYmlZ7vR_g) 
+
+
 
 - 未完待续...
 ## SpringBoot2.x 高级应用篇
